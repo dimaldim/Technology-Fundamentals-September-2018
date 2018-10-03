@@ -1,0 +1,21 @@
+<?php
+$n = intval(readline());
+$sumLeft = 0.0;
+$sumRight = 0.0;
+ for($i = 1; $i <= $n; $i++) {
+     $nums = explode(" ", readline());
+      if($nums[0] > $nums[1]) {
+          for($j = 0; $j < strlen($nums[0]); $j++) {
+              @$sumLeft += $nums[0][$j];
+          }
+      } else if($nums[1] >= $nums[0]) {
+          for($k = 0; $k < strlen($nums[1]); $k++) {
+              @$sumRight += $nums[1][$k];
+          }
+      }
+      echo $sumLeft + $sumRight . PHP_EOL;
+      $sumLeft = 0.0; 
+      $sumRight = 0.0;
+ }
+ 
+?>
