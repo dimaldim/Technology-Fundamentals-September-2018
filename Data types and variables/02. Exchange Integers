@@ -1,0 +1,10 @@
+<?php
+$num1 = intval(readline());
+$num2 = intval(readline());
+
+$temp = $num1;
+printf("Before:\na = %d\nb = %d\n", $num1, $num2);
+$a = $num2;
+$b = $temp;
+printf("After:\na = %d\nb = %d", $a, $b);
+?>
