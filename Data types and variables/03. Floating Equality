@@ -1,0 +1,11 @@
+<?php
+$num1 = readline();
+$num2 = readline();
+$diff = abs($num1 - $num2);
+  if($diff < 0.000001) {
+      echo 'True';
+  } else {
+      echo 'False';
+  }
+
+?>
