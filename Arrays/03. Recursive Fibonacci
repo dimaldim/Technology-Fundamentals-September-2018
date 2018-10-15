@@ -1,0 +1,16 @@
+<?php
+$num = intval(readline());
+$memo = array();
+echo GetFibonacci($num);
+function GetFibonacci($n) {
+   global $memo;
+   if($n <= 2) {
+       return 1;
+   }
+   if(@$memo[$n] == 0) {
+       $memo[$n] = GetFibonacci($n - 1) + GetFibonacci($n - 2);
+   }
+   return $memo[$n];
+}
+
+?>
