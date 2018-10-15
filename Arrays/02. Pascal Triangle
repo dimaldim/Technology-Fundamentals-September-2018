@@ -1,0 +1,22 @@
+<?php
+$size = intval(readline());
+$result = array ( array (1), );
+  for($i = 1; $i < $size; $i++) {
+      $previous = count($result[$i - 1]);
+       for($j = 0; $j <= $previous; ++$j) {
+           $result[$i][$j] = (
+            (isset($result[$i-1][$j-1]) ? $result[$i-1][$j-1] : 0) + 
+            (isset($result[$i-1][$j]) ? $result[$i-1][$j] : 0)
+        ); 
+       }
+  }
+   for($i = 0; $i < count($result); $i++) {
+       for($j = 0; $j <= count($result[$i]); ++$j) {
+         if(isset($result[$i][$j])) {
+             echo $result[$i][$j] . " ";
+         } else {
+             echo PHP_EOL;
+         }
+       }
+   }
+?>
