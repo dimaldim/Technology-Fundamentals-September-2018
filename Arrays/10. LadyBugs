@@ -1,0 +1,48 @@
+<?php
+$fieldSize = intval(readline());
+$bugIndexes = explode(" ", readline());
+$field = array_fill(0, $fieldSize, 0);
+ for($i = 0; $i < count($bugIndexes); $i++) {
+     if($bugIndexes[$i] >= 0 && $bugIndexes[$i] < $fieldSize) {
+         $field[$bugIndexes[$i]] = 1;
+     }
+ }
+while(($command = readline()) != "end") {
+    $command = explode(" ", $command);
+    $newBugIndex = $command[0];
+    $flightDirection = $command[1];
+    $flightLength = $command[2];
+     if($flightLength < 0) {
+         switch($flightDirection) {
+             case "left": $flightDirection = "right"; break;
+             case "right": $flightDirection = "left"; break;
+         }
+     }
+      if($newBugIndex >= 0 && $newBugIndex < $fieldSize) {
+          if($field[$newBugIndex] == 1) {
+              $field[$newBugIndex] = 0;
+               if($flightDirection == "left") {
+                   $flightLength = abs($flightLength);
+                   for($i = $newBugIndex - $flightLength; $i >= 0; $i = $i - $flightLength) {
+                       if($field[$i] == 0) {
+                           $field[$i] = 1;
+                           break;
+                       }
+                   }
+               }
+               if($flightDirection == "right") {
+                   $flightLength = abs($flightLength);
+                   for($i = $newBugIndex + $flightLength; $i < count($field); $i = $i + $flightLength) {
+                       if($field[$i] == 0) {
+                           $field[$i] = 1;
+                           break;
+                       }
+                   }
+               }
+          }
+      }
+}
+ foreach($field as $output) {
+     echo "$output ";
+ }
+?>
