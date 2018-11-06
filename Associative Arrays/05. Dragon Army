@@ -1,0 +1,49 @@
+<?php
+$arr = [];
+$n = intval(readline());
+ for($i = 1; $i <= $n; $i++) {
+     $input = explode(" ", readline());
+     $type = $input[0];
+     $name = $input[1];
+     $dmg = $input[2];
+     $health = $input[3];
+     $armor = $input[4];
+      if($health == "null") {
+          $health = 250;
+      }
+      if($dmg == "null") {
+          $dmg = 45;
+      } 
+      if($armor == "null") {
+          $armor = 10;
+      }
+     $arr[$type][$name] = [];
+     $arr[$type][$name]["damage"] = $dmg;
+     $arr[$type][$name]["health"] = $health;
+     $arr[$type][$name]["armor"] = $armor;
+ }
+$arr2 = [];
+  foreach($arr as $type => $values) {
+      $count = count($values);
+      $avgDmg = 0.0;
+      $avgHealth = 0.0;
+      $avgArmor = 0.0;
+      foreach($values as $dragon => $stats) {
+          $avgDmg += $stats["damage"];
+          $avgHealth += $stats["health"];
+          $avgArmor += $stats["armor"];
+          $arr2[$type] = [];
+          $arr2[$type]["AvgDmg"] = round($avgDmg / $count, 2);
+          $arr2[$type]["AvgHealth"] = round($avgHealth / $count, 2);
+          $arr2[$type]["AvgArmor"] = round($avgArmor / $count, 2);
+      }
+  } 
+// Output
+  foreach($arr as $type => $values) {
+      printf("%s::(%.2f/%.2f/%.2f)\n", $type, $arr2[$type]['AvgDmg'], $arr2[$type]['AvgHealth'], $arr2[$type]['AvgArmor']);
+      ksort($values);
+      foreach($values as $dragon => $stats) {
+          echo "-$dragon -> damage: {$stats['damage']}, health: {$stats['health']}, armor: {$stats['armor']}" . PHP_EOL;
+      }
+  }
+?>
