@@ -1,0 +1,35 @@
+<?php
+$initialHealth = 100;
+$initialCoins = 0;
+$input = explode("|", readline());
+ for($i = 0; $i < count($input); $i++) {
+     $command = explode(" ", $input[$i]);
+     $token = $command[0];
+     $qty = $command[1];
+      if($token == "potion") {
+          if($initialHealth + $qty <= 100) {
+              $initialHealth += $qty;
+              $healed = $qty;
+          } else {
+              $healed = 100 - $initialHealth;
+              $initialHealth += $healed;
+          }
+          echo "You healed for {$healed} hp." . PHP_EOL;
+          echo "Current health: $initialHealth hp." . PHP_EOL;
+      } else if($token == "chest") {
+          $initialCoins += $qty;
+          echo "You found {$qty} coins." . PHP_EOL;
+      } else {
+          $initialHealth -= $qty;
+          if($initialHealth > 0) {
+              echo "You slayed {$token}." . PHP_EOL;
+          } else {
+              echo "You died! Killed by {$token}." . PHP_EOL;
+              echo "Best room: " . ($i + 1) . PHP_EOL;
+              return ;
+          }
+      }
+ }
+ echo "You've made it!" . PHP_EOL;
+ echo "Coins: $initialCoins" . PHP_EOL;
+ echo "Health: $initialHealth" . PHP_EOL;
