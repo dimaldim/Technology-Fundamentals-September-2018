@@ -1,0 +1,28 @@
+<?php
+$n = intval(readline());
+$groups = [];
+ for($i = 1; $i <= $n; $i++) {
+     $input = explode(" : ", readline());
+     $product = $input[0];
+     $price = $input[1];
+     $firstLetter = $product[0];
+      if(!key_exists($firstLetter, $groups)) {
+          $groups[$firstLetter] = $input;
+      } else {
+          $groups[$firstLetter][] = $product;
+          $groups[$firstLetter][] = $price;
+      }
+ }
+ ksort($groups);
+   foreach($groups as $letter => $values) {
+       echo $letter . PHP_EOL;
+       $products = [];
+        for($i = 0; $i < count($values); $i += 2) {
+            $products[$values[$i]] = $values[$i + 1];
+        }
+        ksort($products);
+       foreach($products as $product => $price) {
+           echo "  $product: $price" . PHP_EOL;
+       }
+   }
+?>
