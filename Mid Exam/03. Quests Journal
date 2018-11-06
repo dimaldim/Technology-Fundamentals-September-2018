@@ -1,0 +1,44 @@
+<?php
+$input = readline();
+$journal = explode(", ", $input);
+while(true) {
+    $command = explode(" - ", readline());
+    $token = $command[0];
+    $quest = @$command[1];
+    if($token == "Retire!") {
+        break;
+    }
+    if($token == "Start") {
+      if(!in_array($quest, $journal)) {
+          array_push($journal, $quest);
+      }
+    }
+    if($token == "Complete") {
+        if(in_array($quest, $journal)) {
+            $index = array_search($quest, $journal);
+            unset($journal[$index]);
+            $journal = array_values($journal);
+        }
+    }
+    if($token == "Side Quest") {
+        $quests = explode(":", $quest);
+        $sideQuest = $quests[1];
+        $firstQuest = $quests[0];
+        if(in_array($firstQuest, $journal)) {
+            if(!in_array($sideQuest, $journal)) {
+                $firstIndex = array_search($firstQuest, $journal);
+                array_splice($journal, $firstIndex + 1, 0, $sideQuest);
+            }
+        }
+    }
+    if($token == "Renew") {
+        if(in_array($quest, $journal)) {
+            $index = array_search($quest, $journal);
+            unset($journal[$index]);
+            $journal = array_values($journal);
+            array_push($journal, $quest);
+        }
+    }
+
+}
+echo implode(", ", $journal);
