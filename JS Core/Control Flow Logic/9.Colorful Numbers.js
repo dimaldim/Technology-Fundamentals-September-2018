@@ -10,5 +10,5 @@ function colorful(num) {
         str += `<li><span style='color:${color}'>${i}</span></li>\n`;
     }
     str += '</ul>';
-    console.log(str);
+    return str;
 }
