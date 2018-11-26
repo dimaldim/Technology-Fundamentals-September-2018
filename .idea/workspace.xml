@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/categories.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/menu.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/eshop/app/config/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/app/config/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/eshop/app/config/services.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/app/config/services.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Posts.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,74 +17,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/base.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="98" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/categories.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-              <folding>
-                <element signature="e#40#70#0#PHP" expanded="true" />
-                <element signature="e#621#646#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/LoginController.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/RegisterController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="12" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/config/services.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-              <folding>
-                <element signature="e#12#26#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -106,15 +36,22 @@
       <list>
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Services/Categories.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Twig/Extension/Categories.php" />
-        <option value="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/app/config/config.yml" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Service/Categories.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Service/CategoryService.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Repository/Categories.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/app/config/services.yml" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Service/CategoriesService.php" />
-        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/categories.html.twig" />
+        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/CategoriesController.php" />
+        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/menu.html.twig" />
+        <option value="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/menu.html.twig" />
+        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/index.html.twig" />
+        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/User.php" />
+        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Posts.php" />
       </list>
     </option>
   </component>
@@ -225,6 +162,30 @@
               <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
               <item name="Repository" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
+              <item name="eshop" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -233,12 +194,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Symfony2.SettingsForm" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mitko\Desktop\SoftUni\Technology-Fundamentals-September-2018\Basic Web\eshop\app\Resources\views" />
       <recent name="C:\Users\Mitko\Desktop\SoftUni\Technology-Fundamentals-September-2018\Basic Web\eshop\src\AppBundle" />
     </key>
   </component>
@@ -254,13 +217,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.DefaultControllerTest">
     <configuration name="AppBundle" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner directory="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle" />
       <method v="2" />
     </configuration>
+    <configuration name="DefaultControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="Tests\AppBundle\Controller\DefaultControllerTest" file="$PROJECT_DIR$/Basic Web/eshop/tests/AppBundle/Controller/DefaultControllerTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.DefaultControllerTest" />
         <item itemvalue="PHPUnit.AppBundle" />
       </list>
     </recent_temporary>
@@ -277,7 +245,7 @@
       <updated>1543221933682</updated>
       <workItem from="1543221934794" duration="78000" />
       <workItem from="1543223364641" duration="208000" />
-      <workItem from="1543223634954" duration="5503000" />
+      <workItem from="1543223634954" duration="11316000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -286,15 +254,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543221972127</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update">
+      <created>1543229547645</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543229547645</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5789000" />
+    <option name="totallyTimeSpent" value="11602000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20293398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -350,16 +324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Service/Categories.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -376,9 +340,6 @@
           <caret line="2457" column="125" selection-start-line="2457" selection-start-column="125" selection-end-line="2457" selection-end-column="125" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/LoginController.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/RegisterController.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -415,10 +376,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/categories.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/CategoriesControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/tests/AppBundle/Controller/DefaultControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/CategoriesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          <folding>
+            <element signature="e#40#70#0#PHP" expanded="true" />
+            <element signature="e#377#399#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/LoginController.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/menu.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="88" selection-start-line="15" selection-start-column="88" selection-end-line="15" selection-end-column="88" />
+          <folding>
+            <element signature="e#385#393#0#Twig" expanded="true" />
+            <element signature="e#666#672#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/UserController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="60" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+          <folding>
+            <element signature="e#40#97#0#PHP" expanded="true" />
+            <element signature="e#215#231#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        <state relative-caret-position="204">
+          <caret line="18" column="107" selection-start-line="18" selection-start-column="107" selection-end-line="18" selection-end-column="107" />
           <folding>
             <element signature="e#40#70#0#PHP" expanded="true" />
             <element signature="e#621#646#0#PHP" expanded="true" />
@@ -426,17 +443,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="83" column="1" selection-start-line="83" selection-start-column="1" selection-end-line="98" selection-end-column="18" />
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/categories.html.twig">
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+        <state relative-caret-position="289">
+          <caret line="27" column="74" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>

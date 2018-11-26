@@ -36,6 +36,7 @@ class Posts
     private $body;
 
     /**
+     * @see User
      * @var int
      *
      * @ORM\Column(name="author_id", type="integer")
@@ -71,8 +72,10 @@ class Posts
     public function setCreatedAt($created_at)
     {
         $this->created_at = $created_at;
+
         return $this;
     }
+
     /**
      * @return int
      */
