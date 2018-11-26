@@ -16,7 +16,6 @@ class DefaultController extends Controller
     {
         $posts = $this->getDoctrine()->getRepository(Posts::class)->findBy(array(), array('id' => 'DESC'));
         $categories = $this->getDoctrine()->getRepository(Category::class)->findAll();
-
         return $this->render(
             'default/index.html.twig',
             [

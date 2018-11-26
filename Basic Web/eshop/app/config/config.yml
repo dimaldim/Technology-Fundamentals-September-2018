@@ -36,7 +36,6 @@ twig:
     debug: '%kernel.debug%'
     strict_variables: '%kernel.debug%'
     globals:
-        categories: '@AppBundle\Controller\DefaultController'
 
 # Doctrine Configuration
 doctrine:
