@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Security\Core\User\UserInterface;
 
@@ -29,6 +30,10 @@ class User implements UserInterface, \Serializable
      */
     private $username;
 
+    /**
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\Posts",mappedBy="author")
+     */
+    private $posts;
     /**
      * @var string
      *
@@ -140,7 +145,7 @@ class User implements UserInterface, \Serializable
     }
 
     /**
-     * Get emai
+     * Get email
      *
      * @return string
      */
@@ -207,5 +212,22 @@ class User implements UserInterface, \Serializable
             // $this->salt
             ) = unserialize($serialized, array('allowed_classes' => false));
     }
+
+    /**
+     * @return mixed
+     */
+    public function getPosts(): ?Posts
+    {
+        return $this->posts;
+    }
+
+    /**
+     * @param mixed $posts
+     */
+    public function setPosts($posts)
+    {
+        $this->posts = $posts;
+    }
+
 }
 

@@ -36,19 +36,19 @@ class Posts
     private $body;
 
     /**
-     * @see User
      * @var int
      *
      * @ORM\Column(name="author_id", type="integer")
      */
     private $author_id;
-
     /**
-     * @var int
-     *
-     * @ORM\Column(name="category", type="integer")
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\User", inversedBy="posts")
+     * @ORM\JoinColumn(name="author_id", referencedColumnName="id")
+     */
+    private $author;
+    /**
      * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Category")
-     * @ORM\JoinColumn(name="id", referencedColumnName="id")
+     * @ORM\JoinColumn(name="category", referencedColumnName="id")
      */
     private $category;
 
@@ -75,26 +75,6 @@ class Posts
 
         return $this;
     }
-
-    /**
-     * @return int
-     */
-
-    public function getCategory()
-    {
-        return $this->category;
-    }
-
-    /**
-     * @param int $category
-     */
-    public function setCategory($category)
-    {
-        $this->category = $category;
-
-        return $this;
-    }
-
 
     /**
      * Get id
@@ -177,4 +157,37 @@ class Posts
     {
         return $this->author_id;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getCategory(): ?Category
+    {
+        return $this->category;
+    }
+
+    /**
+     * @param mixed $category
+     */
+    public function setCategory($category)
+    {
+        $this->category = $category;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getAuthor(): ?User
+    {
+        return $this->author;
+    }
+
+    /**
+     * @param mixed $author
+     */
+    public function setAuthor($author)
+    {
+        $this->author = $author;
+    }
+
 }

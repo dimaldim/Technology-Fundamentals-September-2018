@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/menu.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/base.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/eshop/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/eshop/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/DefaultController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/DefaultController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Form/UserType.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Form/UserType.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,12 +19,81 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Form/UserType.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Posts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="607">
+              <caret line="179" column="38" selection-start-line="179" selection-start-column="38" selection-end-line="179" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2164">
+              <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+              <folding>
+                <element signature="e#36#84#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/DefaultController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="107" selection-start-line="19" selection-start-column="107" selection-end-line="19" selection-end-column="107" />
+              <folding>
+                <element signature="e#40#70#0#PHP" expanded="true" />
+                <element signature="e#621#646#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/login.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
+              <folding>
+                <element signature="e#12#26#0#Twig" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>categories</find>
       <find>AppBundle\Controller\Category</find>
+      <find>re</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\Mitko\Desktop\SoftUni\Technology-Fundamentals-September-2018\Basic Web</dir>
@@ -44,14 +115,16 @@
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Service/CategoriesService.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/categories.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/CategoriesController.php" />
-        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/menu.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/menu.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/UserController.php" />
+        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Category.php" />
+        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Form/UserType.php" />
+        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Posts.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/index.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Posts.php" />
+        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/DefaultController.php" />
       </list>
     </option>
   </component>
@@ -91,100 +164,7 @@
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
               <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
               <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="default" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="AppBundle" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,7 +225,7 @@
       <updated>1543221933682</updated>
       <workItem from="1543221934794" duration="78000" />
       <workItem from="1543223364641" duration="208000" />
-      <workItem from="1543223634954" duration="11316000" />
+      <workItem from="1543223634954" duration="17663000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -261,17 +241,24 @@
       <option name="project" value="LOCAL" />
       <updated>1543229547645</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update">
+      <created>1543237468632</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543237468632</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11602000" />
+    <option name="totallyTimeSpent" value="17949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20293398" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994401" visible="true" weight="0.20293398" />
+      <window_info id="Structure" order="1" sideWeight="0.5005599" side_tool="true" weight="0.20293398" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.3295964" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -284,7 +271,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4987775" weight="0.32922733" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987775" visible="true" weight="0.3281075" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4987775" visible="true" weight="0.3281075" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5012225" side_tool="true" weight="0.3295964" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -330,9 +317,6 @@
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Repository/CategoryRepository.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/eshop/var/logs/dev.log">
       <provider selected="true" editor-type-id="text-editor">
@@ -403,13 +387,6 @@
     <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/LoginController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/menu.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -432,10 +409,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Repository/UserRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Repository/CategoryRepository.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/var/cache/dev/doctrine/orm/Proxies/__CG__AppBundleEntityUser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Form/UserType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Posts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="179" column="38" selection-start-line="179" selection-start-column="38" selection-end-line="179" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2164">
+          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="e#36#84#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="107" selection-start-line="18" selection-start-column="107" selection-end-line="18" selection-end-column="107" />
+        <state relative-caret-position="323">
+          <caret line="19" column="107" selection-start-line="19" selection-start-column="107" selection-end-line="19" selection-end-column="107" />
           <folding>
             <element signature="e#40#70#0#PHP" expanded="true" />
             <element signature="e#621#646#0#PHP" expanded="true" />
@@ -443,27 +481,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/default/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="85">
+          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
           <folding>
             <element signature="e#12#26#0#Twig" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="27" column="74" selection-start-line="27" selection-start-column="74" selection-end-line="27" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Posts.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
