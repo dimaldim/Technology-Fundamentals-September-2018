@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Register!{% endblock %}
+
+{% block body %}
+    <form method="post">
+        <label for="inputUsername" class="sr-only">Username</label>
+        <input type="text" name="register[username]" id="inputUsername" class="form-control"
+               placeholder="Username" required autofocus>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="register[password]" id="inputPassword" class="form-control" placeholder="Password"
+               required>
+        <label for="inputEmail" class="sr-only">Password</label>
+        <input type="email" name="register[email]" id="inputEmail" class="form-control" placeholder="E-mail"
+               required>
+
+        {{ form_row(form._token) }}
+        <button type="submit">Register!</button>
+    </form>
+{% endblock %}
