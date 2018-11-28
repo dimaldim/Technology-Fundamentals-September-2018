@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Exams/Chore Wars.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exams/Google Searches.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/MeTube Statistics.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +13,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exams/Google Searches.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exams/MeTube Statistics.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="28" selection-end-line="21" selection-end-column="62" />
+            <state relative-caret-position="455">
+              <caret line="107" column="13" lean-forward="true" selection-end-line="137" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exams/Chore Wars.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/String and Text processing/Rage Quit.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+              <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -61,7 +60,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Services/Categories.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Twig/Extension/Categories.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Service/Categories.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Service/CategoryService.php" />
@@ -112,6 +110,7 @@
         <option value="$PROJECT_DIR$/Exams/Chat Logger.php" />
         <option value="$PROJECT_DIR$/Exams/Google Searches.php" />
         <option value="$PROJECT_DIR$/Exams/Chore Wars.php" />
+        <option value="$PROJECT_DIR$/Exams/MeTube Statistics.php" />
       </list>
     </option>
   </component>
@@ -176,11 +175,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.Chore Wars.php">
-    <configuration name="DefaultControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="Tests\AppBundle\Controller\DefaultControllerTest" file="$PROJECT_DIR$/Basic Web/eshop/tests/AppBundle/Controller/DefaultControllerTest.php" scope="Class" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHP Script.MeTube Statistics.php">
     <configuration name="01. Extract Emails.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Regular Expressions/01. Extract Emails.php">
       <method v="2" />
     </configuration>
@@ -193,13 +188,16 @@
     <configuration name="Google Searches.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Exams/Google Searches.php">
       <method v="2" />
     </configuration>
+    <configuration name="MeTube Statistics.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Exams/MeTube Statistics.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.MeTube Statistics.php" />
         <item itemvalue="PHP Script.Chore Wars.php" />
         <item itemvalue="PHP Script.Google Searches.php" />
         <item itemvalue="PHP Script.Chat Logger.php" />
         <item itemvalue="PHP Script.01. Extract Emails.php" />
-        <item itemvalue="PHPUnit.DefaultControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +214,7 @@
       <workItem from="1543221934794" duration="78000" />
       <workItem from="1543223364641" duration="208000" />
       <workItem from="1543223634954" duration="27794000" />
-      <workItem from="1543310860313" duration="24877000" />
+      <workItem from="1543310860313" duration="29748000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -274,11 +272,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543387766424</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Update">
+      <created>1543392025841</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543392025841</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52957000" />
+    <option name="totallyTimeSpent" value="57828000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -291,6 +296,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994401" visible="true" weight="0.13691932" />
       <window_info id="Structure" order="1" sideWeight="0.5005599" side_tool="true" weight="0.20293398" />
@@ -323,18 +329,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../CRUD/TeisterMask/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-936" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/app/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="33" column="41" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Category.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -694,6 +688,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/Chore Wars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Exams/Google Searches.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -701,10 +702,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Exams/Chore Wars.php">
+    <entry file="file://$PROJECT_DIR$/String and Text processing/Rage Quit.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/MeTube Statistics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="107" column="13" lean-forward="true" selection-end-line="137" selection-end-column="1" />
         </state>
       </provider>
     </entry>
