@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Basic Web/web-project/translations/messages.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Exams/Chat Logger.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Chore Wars.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Google Searches.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/templates/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/menu.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exams/Chat Logger.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Exams/Google Searches.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="357">
+              <caret line="21" column="28" selection-end-line="21" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Exams/Chore Wars.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -103,6 +110,8 @@
         <option value="$PROJECT_DIR$/Basic Web/web-project/templates/security/login.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/templates/menu.html.twig" />
         <option value="$PROJECT_DIR$/Exams/Chat Logger.php" />
+        <option value="$PROJECT_DIR$/Exams/Google Searches.php" />
+        <option value="$PROJECT_DIR$/Exams/Chore Wars.php" />
       </list>
     </option>
   </component>
@@ -114,7 +123,9 @@
     <option name="width" value="1400" />
     <option name="height" value="970" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -126,6 +137,11 @@
             <path>
               <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="Exams" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,11 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.Chat Logger.php">
-    <configuration name="AppBundle" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner directory="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHP Script.Chore Wars.php">
     <configuration name="DefaultControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="Tests\AppBundle\Controller\DefaultControllerTest" file="$PROJECT_DIR$/Basic Web/eshop/tests/AppBundle/Controller/DefaultControllerTest.php" scope="Class" />
       <method v="2" />
@@ -175,12 +187,19 @@
     <configuration name="Chat Logger.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Exams/Chat Logger.php">
       <method v="2" />
     </configuration>
+    <configuration name="Chore Wars.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Exams/Chore Wars.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="Google Searches.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Exams/Google Searches.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.Chore Wars.php" />
+        <item itemvalue="PHP Script.Google Searches.php" />
         <item itemvalue="PHP Script.Chat Logger.php" />
         <item itemvalue="PHP Script.01. Extract Emails.php" />
         <item itemvalue="PHPUnit.DefaultControllerTest" />
-        <item itemvalue="PHPUnit.AppBundle" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +216,7 @@
       <workItem from="1543221934794" duration="78000" />
       <workItem from="1543223364641" duration="208000" />
       <workItem from="1543223634954" duration="27794000" />
-      <workItem from="1543310860313" duration="20861000" />
+      <workItem from="1543310860313" duration="24877000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -248,11 +267,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543327832237</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Update">
+      <created>1543387766265</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543387766424</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48941000" />
+    <option name="totallyTimeSpent" value="52957000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -264,17 +290,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994401" visible="true" weight="0.16045845" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4994401" visible="true" weight="0.13691932" />
       <window_info id="Structure" order="1" sideWeight="0.5005599" side_tool="true" weight="0.20293398" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32922733" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.2732167" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49856734" weight="0.3243607" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.22732362" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49856734" weight="0.32362822" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32922733" />
@@ -298,19 +323,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/vendor/sonata-project/admin-bundle/src/Admin/PostsAdmin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding>
-            <element signature="e#44#74#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../CRUD/TeisterMask/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../CRUD/TeisterMask/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-936" />
@@ -677,8 +689,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Exams/Chat Logger.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        <state relative-caret-position="391">
+          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/Google Searches.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="28" selection-end-line="21" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/Chore Wars.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
         </state>
       </provider>
     </entry>
