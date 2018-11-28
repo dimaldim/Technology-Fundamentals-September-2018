@@ -8,11 +8,20 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Начало <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="{{ path('home') }}">Начало <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Link</a>
-            </li>
+            {% if is_granted('IS_AUTHENTICATED_FULLY') %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ path('app_logout') }}">Изход</a>
+                </li>
+            {% else %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ path('app_login') }}">Вход</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ path('register') }}">Регистрация</a>
+                </li>
+            {% endif %}
         </ul>
         <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -20,13 +29,3 @@
         </form>
     </div>
 </nav>
-<p>
-    <a href="{{ path('home') }}"">Начало</a>
-    {% if is_granted('IS_AUTHENTICATED_FULLY') %}
-        <a href="{{ path('app_logout') }}">Изход</a>
-    {% else %}
-        <a href="{{ path('app_login') }}">Вход</a>
-        <a href="{{ path('register') }}">Регистрация</a>
-
-    {% endif %}
-</p>
