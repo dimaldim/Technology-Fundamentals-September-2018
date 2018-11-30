@@ -20,13 +20,13 @@ class Post
 
     /**
      * @ORM\Column(type="string", length=255)
-     * @Assert\NotBlank
+     * @Assert\NotBlank(message="Полето Заглавие е задължително!")
      */
     private $title;
 
     /**
      * @ORM\Column(type="text")
-     * @Assert\NotBlank(message="Полето е задължително!")
+     * @Assert\NotBlank(message="Полето Текст е задължително!")
      */
     private $body;
 

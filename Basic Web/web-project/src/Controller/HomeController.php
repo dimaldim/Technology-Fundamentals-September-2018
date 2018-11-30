@@ -108,18 +108,32 @@ class HomeController extends AbstractController
      * @Route("/category/{slug}", name="view_cat")
      * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response
      */
-    public function viewCat($slug, Category $category)
+    public function viewCat($slug, Category $category = null)
     {
         if (!$this->getDoctrine()->getRepository(Category::class)->findBySlug($slug)) {
             return $this->redirectToRoute('home');
         }
-        $posts = $category->getPosts();
 
         return $this->render(
             'home/category.html.twig',
             [
-                'posts' => $posts,
-                'catName' => $category->getName(),
+                'posts' => $category->getPosts(),
+                'catName' => $category,
+            ]
+        );
+    }
+
+    /**
+     * @Route("/post/{slug}", name="view_post")
+     * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response
+     */
+    public function viewPost($slug, Post $post = null)
+    {
+
+        return $this->render(
+            'home/view_post.html.twig',
+            [
+               'post' => $post
             ]
         );
     }

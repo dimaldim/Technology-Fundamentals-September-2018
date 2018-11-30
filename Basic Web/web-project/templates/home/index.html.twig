@@ -16,16 +16,16 @@
         {% for post in posts %}
             <div class="row">
                 <article class="col-xs-12">
-                    <h2>{{ post.title }}</h2>
+                    <h2><a href="{{ path('view_post', {'slug': post.slug}) }}">{{ post.title }}</a></h2>
                     <p>{{ post.body|length > 350 ? post.body|slice(0,350) ~ '...': post.body}}</p>
                     <p>
-                        <button class="btn btn-outline-success">Прочети още</button>
+                        <a href="{{ path('view_post', {'slug': post.slug}) }}" class="btn btn-outline-success">Прочети още</a>
                     </p>
                     <ul class="list-inline">
                         <li class="list-inline-item"><i
                                     class="fa fa-clock-o"></i> {{ post.createdAt | date("Y-m-d H:i") }}</li>
                         <li class="list-inline-item"><i class="fa fa-user"></i> {{ post.author }}</li>
-                        <li class="list-inline-item"><i class="fa fa-list"></i> <a href="{{ path('view_cat', {'slug': post.category.id}) }}">{{ post.category }}</a></li>
+                        <li class="list-inline-item"><i class="fa fa-list"></i> <a href="{{ path('view_cat', {'slug': post.category.slug}) }}">{{ post.category }}</a></li>
                         <li class="list-inline-item"><i class="fa fa-comments"></i><a href="#"> </span> 0
                                 коментар(и)</a></li>
                     </ul>

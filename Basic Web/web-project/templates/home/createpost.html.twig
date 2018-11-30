@@ -3,18 +3,20 @@
 {% block body %}
     <div class="col-sm-6">
      <form method="post">
+         {% if errors is defined %}
+             <div class="alert alert-danger alert-dismissible" role="alert">
+                 <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                             aria-hidden="true">&times;</span></button>
+                 {% for error in errors %}
+                     <p><i class="fa fa-info"> {{ error.message }}</i></p>
+                 {% endfor %}
+             </div>
+         {% endif %}
          <div class="form-group">
              <label for="Title" class="sr-only">Заглавие: </label>
              <input type="text" name="create_post[title]" class="form-control" placeholder="Заглавие" id="Title" autofocus required />
          </div>
          <div class="form-group">
-             {% if errors is defined %}
-                 <div class="alert alert-danger alert-dismissible" role="alert">
-                     <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
-                                 aria-hidden="true">&times;</span></button>
-                     {{ form_errors(form.body) }}
-                 </div>
-             {% endif %}
              <textarea name="create_post[body]" class="form-control" required placeholder="Текст"></textarea>
          </div>
          <div class="form-group">
