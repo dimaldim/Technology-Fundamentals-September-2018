@@ -1,0 +1,35 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <!-- Center Column -->
+    <div class="col-sm-6">
+        <h2>{{ catName.name }}</h2>
+        <!-- Alert -->
+        {% if posts|length == 0 %}
+            <div class="alert alert-danger alert-dismissible" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span
+                            aria-hidden="true">&times;</span></button>
+                <strong>Внимание:</strong> Няма теми в тази категория!
+            </div>
+        {% endif %}
+        <!-- Articles -->
+        {% for post in posts %}
+            <div class="row">
+                <article class="col-xs-12">
+                    <h2>{{ post.title }}</h2>
+                    <p>{{ post.body }}</p>
+                    <p>
+                        <button class="btn btn-outline-success">Прочети още</button>
+                    </p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><i
+                                    class="fa fa-clock-o"></i> {{ post.createdAt | date("Y-m-d H:i") }}</li>
+                        <li class="list-inline-item"><i class="fa fa-user"></i> {{ post.author }}</li>
+                        <li class="list-inline-item"><i class="fa fa-list"></i> <a href="#">{{ post.category }}</a></li>
+                        <li class="list-inline-item"><i class="fa fa-comments"></i><a href="#"> </span> 0
+                                коментар(и)</a></li>
+                    </ul>
+                </article>
+            </div>
+        {% endfor %}
+    </div><!--/Center Column-->
+{% endblock %}

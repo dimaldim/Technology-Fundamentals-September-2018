@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div class="col-sm-6">
+     <form method="post">
+         <div class="form-group">
+             <label for="Title" class="sr-only">Заглавие: </label>
+             <input type="text" name="create_post[title]" class="form-control" placeholder="Заглавие" id="Title" autofocus required />
+         </div>
+         <div class="form-group">
+             <textarea name="create_post[body]" class="form-control">Текст</textarea>
+         </div>
+         <div class="form-group">
+         {{ form_row(form.category) }}
+         </div>
+         {{ form_row(form._token) }}
+         <button type="submit" class="btn btn-primary">Пусни!</button>
+     </form>
+    </div>
+{% endblock %}
