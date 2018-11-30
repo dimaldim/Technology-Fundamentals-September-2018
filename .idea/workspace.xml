@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/categories.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/home/category.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/home/createpost.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/templates/menu.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/menu.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +10,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
@@ -27,6 +20,15 @@
                 <element signature="e#1342#1348#1#PHP" expanded="true" />
                 <element signature="e#980#1007#1#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basic Web/web-project/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -109,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/menu.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Category.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Form/UserType.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Entity/Posts.php" />
@@ -160,6 +161,7 @@
         <option value="$PROJECT_DIR$/Basic Web/web-project/src/Form/CreatePostType.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/templates/home/createpost.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/Basic Web/web-project/.gitignore" />
       </list>
     </option>
   </component>
@@ -197,29 +199,6 @@
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
               <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
               <item name="web-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -295,7 +274,7 @@
       <workItem from="1543223364641" duration="208000" />
       <workItem from="1543223634954" duration="27794000" />
       <workItem from="1543310860313" duration="30384000" />
-      <workItem from="1543397857458" duration="23386000" />
+      <workItem from="1543397857458" duration="23478000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -367,11 +346,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543396735848</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Update">
+      <created>1543561486741</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543561486741</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81850000" />
+    <option name="totallyTimeSpent" value="81942000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -417,7 +403,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basic Web/eshop/composer.json" />
     <entry file="file://$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/LoginController.php" />
     <entry file="file://$PROJECT_DIR$/Basic Web/eshop/vendor/sonata-project/admin-bundle/src/Form/ChoiceList/ModelChoiceList.php" />
     <entry file="file://$PROJECT_DIR$/Basic Web/eshop/vendor/doctrine/common/lib/Doctrine/Common/Util/ClassUtils.php" />
@@ -744,6 +729,13 @@
             <element signature="e#1342#1348#1#PHP" expanded="true" />
             <element signature="e#980#1007#1#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
