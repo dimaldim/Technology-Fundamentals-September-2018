@@ -4,5 +4,7 @@ easy_admin:
             class: App\Entity\Post
         Category:
             class: App\Entity\Category
+            new:
+                fields: ['name']
         User:
             class: App\Entity\User

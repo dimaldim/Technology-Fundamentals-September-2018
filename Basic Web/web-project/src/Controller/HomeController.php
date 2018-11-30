@@ -11,6 +11,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
+use Symfony\Component\Validator\Validator\ValidatorInterface;
 
 class HomeController extends AbstractController
 {
@@ -37,13 +38,23 @@ class HomeController extends AbstractController
     /**
      * @Route("/post", name="create_post")
      */
-    public function post(Request $request)
+    public function post(Request $request, ValidatorInterface $validator)
     {
         $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY');
         $post = new Post();
         $form = $this->createForm(CreatePostType::class, $post);
         $form->handleRequest($request);
-        if ($form->isSubmitted() && $form->isValid()) {
+        if ($form->isSubmitted()) {
+            $errors = $validator->validate($post);
+            if (count($errors) > 0) {
+                return $this->render(
+                    'home/createpost.html.twig',
+                    [
+                        'errors' => $errors,
+                        'form' => $form->createView(),
+                    ]
+                );
+            }
             $post->setCreatedAt(new \DateTime());
             /** @var \App\Entity\User $user */
             $user = $this->getUser();
@@ -94,22 +105,21 @@ class HomeController extends AbstractController
     }
 
     /**
-     * @Route("/view/{id}", name="view_cat")
+     * @Route("/category/{slug}", name="view_cat")
      * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response
      */
-    public function viewCat($id)
+    public function viewCat($slug, Category $category)
     {
-        if (!$this->getDoctrine()->getRepository(Category::class)->find($id)) {
+        if (!$this->getDoctrine()->getRepository(Category::class)->findBySlug($slug)) {
             return $this->redirectToRoute('home');
         }
-        $repo = $this->getDoctrine()->getRepository(Post::class);
-        $posts = $repo->findByCategory($id);
+        $posts = $category->getPosts();
 
         return $this->render(
             'home/category.html.twig',
             [
                 'posts' => $posts,
-                'catName' => $this->getDoctrine()->getRepository(Category::class)->find($id),
+                'catName' => $category->getName(),
             ]
         );
     }

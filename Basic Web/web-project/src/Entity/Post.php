@@ -3,6 +3,8 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Gedmo\Mapping\Annotation as Gedmo;
+use Symfony\Component\Validator\Constraints as Assert;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\PostRepository")
@@ -18,11 +20,13 @@ class Post
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank
      */
     private $title;
 
     /**
      * @ORM\Column(type="text")
+     * @Assert\NotBlank(message="Полето е задължително!")
      */
     private $body;
 
@@ -41,6 +45,12 @@ class Post
      * @ORM\Column(type="datetime")
      */
     private $created_at;
+
+    /**
+     * @Gedmo\Slug(fields={"title", "id"})
+     * @ORM\Column(length=255, unique=true)
+     */
+    private $slug;
 
     public function getId(): ?int
     {
@@ -111,4 +121,21 @@ class Post
     {
         return $this->getTitle();
     }
+
+    /**
+     * @return mixed
+     */
+    public function getSlug()
+    {
+        return $this->slug;
+    }
+
+    /**
+     * @param mixed $slug
+     */
+    public function setSlug($slug): void
+    {
+        $this->slug = $slug;
+    }
+
 }
