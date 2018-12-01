@@ -2,569 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php-test-framework.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/home/view_post.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic Web/web-project/tests/Controller/HomeControllerTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Basic Web/web-project/tests/Repository/PostRepositoryTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/Preparation Exam December 2018.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/01. Dictionary.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/02. Deciphering.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/web-project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/web-project/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/config/packages/framework.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/config/routes/annotations.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/src/Entity/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/src/Entity/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/src/Entity/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/web-project/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/templates/home/createpost.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/home/createpost.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/annotations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/annotations.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/QKu+MVy19Z/2/K/Z6u6OmsvgJwc7ebtEOgh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/QKu+MVy19Z/G/X/yZNbBRIFFz8iml0QPV-9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/QKu+MVy19Z/J/2/kS0KKoNDGN-JrVNBsv6r" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/QKu+MVy19Z/S/U/6o6dzHtlv4XY2uRmc8-E" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/QKu+MVy19Z/V/M/I4YHK9JMxDcK9X3ajugA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/QKu+MVy19Z/X/K/rEJ4r9WOezFcAoiYdRLC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/+/1/8nAr8oNlOOuwYhyAjtjG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/+/E/9aHLZeUtrbF33tGJbTdQ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/+/I/wFSBxro7WqgsNYoCScvW" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/+/T/OR+MdP55H6Unvn1yV7Xf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/+/U/tllaw7-e0D-Cxpzy6pBg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/+/X/KTNReQWaOfnO-1WN6rkf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/+/Z/Y1pMO6FjW+hr0GwtYwsQ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/-/7/bFyRHgD4iXDNIgygxoxa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/-/8/5ipBBAaKvrDBLcha7shf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/-/H/ZviavU7YS+WdWBNmLVAK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/-/J/IjreYEpz70tV1m-6RwRt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/-/J/YU-hJZt1CGILbBXWF3bl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/-/L/8A44LytCP5N0tqpO8kdt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/-/M/+gEMjETQVyZksDO9LV8y" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/-/M/WvGIPmW+a1rqrs2xc7aV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/-/O/-RK6MKQKcsSLkPTN8GfH" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/-/O/Kll0dP6m1Ptu-ZvQBvi5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/0/-/KpOk9rLxFh09B1wbK63a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/0/6/1D-F8j9kURsvyjH8FIwD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/0/C/m-hsmTKJSHJ1pLuUj209" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/0/I/n7aY4K6FlQuxFgPIF2EU" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/0/L/+1E4-tJlOgxHoTPgYwUW" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/0/L/b2GBcO1zC3hIyxdiunFC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/0/M/mxZdyWarqTt6F2OWEOR1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/0/N/JRsC51lrLeoWnftpV0T8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/0/P/xVs6MWP-Tdj1rcWybGT0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/0/S/wGy+HhPYYsBopAHxz-df" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/0/Y/9v1Ne4KN+ZZDV2EdLaVE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/0/Z/+0kzoRWFx8NA0YNFpBnZ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/1/B/-yccUXhRMeZX1uRHh5l4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/1/F/xJVAJfbA1Q1NSlYfic4U" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/1/K/P26K1ErjqYiX5lnAYulI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/1/K/mdMDbKyur3tHIDDMFofu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/1/O/1BlizeMleSZ3TWzUwmJE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/1/T/koGQcV33-g9W2jCAv+v2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/1/W/MgFh6FFOCe4ucVwinB+i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/1/Y/5WzILIt5FxLQePoXG3Sv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/2/5/s7tLwTm+ndHetHwHXEqZ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/2/6/k0BMHx6qXS7f7JrSeciy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/2/9/68zs65ipCOe6ipaCCt74" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/2/9/omXofqLtymIX2XS-fiTp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/2/H/BwNAtuitNag9QPrFGpWv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/2/N/EsXEi7YzebigLTD4DDdq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/2/Q/Uoklkg9FQPHnhf82iutI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/2/R/GNI0umNJWrLsgEVLp6vi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/2/V/7t6CE-tUHCvK6BHL7oAY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/2/W/Imwyl8gIQFld8NiQuCef" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/3/+/PVI2nM5YJ8j8DPvx1r1+" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/3/0/rQtPSUUs-b-twxrS00W+" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/3/1/3GMxdyazRI3pnAPp2+TO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/3/9/bTaCSa0iEWosYhUXLm8I" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/3/Q/9nIELVa4ettJhbpTLB00" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/3/T/fhuow92Od1gL4UPlxwVm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/4/0/bk6hq4u73ckcZFv18EF6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/4/3/zi2-U03bI718v3avHoED" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/4/4/nKj0l0+Dg-YYnjgqCnZk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/4/B/xjIWhYHQAgXKp7MPyI7Z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/4/J/avRpNLEMIF5H14JJk2ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/4/S/vuHDu-J8iDfziRhqVdAg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/5/0/mZYQD0UvDhuBpO4AIyc5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/5/0/uWKsHvyuWEJ40Hrcdehy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/5/7/9D6+fDyZUL+hp4RETR+D" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/5/9/5kKc5xonLw834OUYzDgl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/5/D/Un-CyjHjUF5EZ7ed+8Xc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/5/K/4Lz3BF92QEptcRh-NLFn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/5/L/6tNNOaa9VK8VOJip0Rsg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/5/M/ZxXS5Avq18KDJObh5VLq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/5/N/4Z1c3knrs71h-eFwoBA+" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/5/S/tK0QqGZ1p1nXlSpYcmis" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/5/W/C3RrjtuL-Wnq8CUaj2aR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/6/3/-gzRkOqlcDb2hSbnQ5ix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/6/A/L+bHdNZMzjc3WoSl8uRi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/6/D/KASR281F7dA9ndUiWGVR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/6/G/3u8nKIjz4qL0-JtLyxJP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/6/J/NVJ0shOiax2fdmhxXe88" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/6/P/l1WquwF7+ogI1SggnQvu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/6/R/Ji3RTa36P+g3fRPGr71k" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/6/V/ElCabF7Pqtl7fw9NP103" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/6/Z/QDGCjGgRAV9NhuUFn+7f" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/7/+/F+VhhXh6X7fpMyZOZktH" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/7/2/wkgxojCCP6vCRyt3pZge" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/7/7/pU0pBWLOKLV-Apg6epAZ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/7/J/7LtdVLbFN8HvZj2dj9wM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/7/U/dnj5NnXU2CMDRqM-QSBw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/7/W/dhD81J9zukbPVpbsz+Mn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/7/X/EB7epE9nStv7MRoe0Ygr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/7/Z/dzQ0MDAgiymBRw3Bwway" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/8/7/w5IONcTuHNJsDFZYVG2n" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/8/A/gdVIyk0OtiZti5-Un+8U" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/8/F/1dMq4uc9TozpE0m-3BPW" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/8/J/nGFWi5WDMf5BzgdtR8+d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/8/L/stPIRU+-OhVNi+9GKfwm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/8/P/40lnOfAZJOiQv7lu85GF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/8/P/ThaIcmeXxyxruupOYt6r" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/8/Q/EX7NIhwujA4CnsLnwYUs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/8/W/1gJjTM+5mq-CxchA9epL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/9/+/cHb+VkZCyNcVWL9FYTVk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/9/C/UxjeZfGHio-+YAJq9fLx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/9/F/P83wdq-A989fMXbm6iex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/9/H/caEfvIKJi34OtazcKxJQ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/9/M/8sh2P6uDRSOnNQU1rBbP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/9/P/h47pXtOH05gUcV1+HA-k" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/9/V/9SWCJ9071ZOdlKVmTw5Q" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/9/Z/52jI64nRMp4qUnO8hLT6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/9/Z/9WUF05zg2P+blnVTwMyj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/A/9/Hmjo8fDrpIFm5YAXgK3i" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/A/A/cJi1EdboyizuWtnrrG7z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/A/G/5ysIR4TizPeODDWaSObF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/A/H/Wxa0i-b0YCBkf-0hCDd5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/A/P/Bk5hDW6ecIZ1MrvCGSRl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/A/S/QgxD8mjic2jXbwNhHgRU" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/A/V/hRVZgAQuPBkls9-hlZ0E" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/A/Y/27ewsL-Bom4L95kOl0UU" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/A/Y/lI22ljOpRLIZg59Q-8B+" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/2/IkKdXAgRstBfG5rwli-8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/3/50SQDnTj+jol4O0rM22C" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/7/Bj3A4IANU55eFg8oLg5x" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/D/G+zu46Doz-1s3RAfq5lH" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/G/-cc9VSbMN-a-BeiYTUlt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/G/zsyTaisWbRSJKQfJiyCq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/J/HJAFRh+QlCWDtcXduuWS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/L/n7wBdnOZiIh2KacTmAhd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/Q/8VGZXu5I2gzg-EndH27o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/Q/exEYmF9-QCrO1Nfmo-c1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/R/aGLCTqCnGG-691fm97ow" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/S/VJBXEDFRDgCeWJDzeChD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/U/Wooq+fmt0V1mzWhcU0+R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/Y/+NfmSakidxIBhv07O8H9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/B/Z/TxQ7oSlbLMRz81Jy22nd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/C/-/zzMj0rR7lagYO48IAKfd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/C/1/bPALgWMv56RmU94VwwcC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/C/2/O8hjPaPHry9eomvkAmN2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/C/7/o1OVeDGNNdCFUbNPeVy+" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/C/A/wqYss266nIpMlwdM421c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/C/E/XgXbi4xS6SdzzyXmKolh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/C/L/FJDQoQixRa2UOd85eQi0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/C/M/Sqy9rFqrh8nGftI5sqTh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/C/P/HM3Mm6GDX0YNr3QKxUzi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/C/Q/ttBpABEH8R+ZieYo2CNz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/C/S/+RdR0w6tgjHPHDgH5+yN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/C/S/nmugpAUMho82QPdr4d82" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/C/T/D6DAEcKKCUWmRCN5V225" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/3/F0eIlzw+FRfRixi4DxJC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/9/zey5vuaRPL7DzhkLcMjX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/A/Le8VxzKT46Nuy+D4Jtzg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/F/NCLQcuiOoyou6x1xSgAN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/H/ro3g1aTp4-CMYIShPdAY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/N/2JPHgIDK81CXuNE-TuXZ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/O/7DQYXfwFY9SNblGbQ6+p" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/P/XYbuL-zre7zFLHJqQPPk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/R/il8Ahq3A7Xr9N-W1V1ND" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/S/dfNUOC1dePTyvbBeOHvl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/S/w3cNXQJnlXyMifKBCQR6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/U/L1Twdy7Ya7s55oQQsQLz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/U/zILs-ZWMGXbkx4XRv5rk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/W/PMgym+-NjCPNYxoSFwJS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/Y/HhIP7bvK9y+xr6znW497" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/D/Z/9LphQCSQTaYdwPpgY+bM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/2/5iOWHYETLgv9PeTOMyK-" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/2/NZ+9DgcWN-6oT2fo0QlS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/4/-437DIruN8K3ZdhW9PfB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/4/kB+0PPBhxrxgAPnseOIZ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/7/GPmViaJnA8YTcqy9EvH5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/8/2Uuxytrh2uHpjoX+2GiR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/A/5ripBQ6iv5C6RFuyaCuC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/B/-so7yD+FrOBteDdNyrA3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/C/+a-juMnC-6wrYDtK5zFq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/C/Ic5NzoyQ2AVO2CjLtSiK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/C/YBBIV0p1Q5vpXCdW3SXN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/D/hk+YpKZ798XEHAtoz1PY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/M/W523Cs1MpVBjTcc3Sy6B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/M/jezwEE2iof5YkxrnnZTr" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/Q/j6ITdGgr26pNv88bn+ZY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/V/4QL9nossWnesaoLncFcG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/W/PZw7-XLp-9NMm0YtuAT4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/X/qWYpateSdvLq6XLPZgWB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/Y/+1B5fCDnp3gBOcefFqVE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/E/Y/ShnbzRB7asKwcPstWv20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/4/ZhsS2yPVmMDZFa6z4rVB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/8/80s-3XrNDqOqZOyXCcvo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/8/tE-qtAz1ID2sqA9RrE1T" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/C/4O5pkez+GSYm6jrJx3Eb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/C/8PStXqzXDiPzjFBY+sXM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/F/Z9w0q0S4k2xYbYU7PBAC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/G/WTfdEn6o8uC82l-vFUxP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/H/+-BD8oCa01F7lHA+QEFQ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/L/BwHAIsGdpc8LH4tOIFJs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/L/SLA3Jk7OJHD4R6ZcvsXI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/M/985Qur6xbi+KFhqDXD0r" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/M/TWJ+Pd2mGPDRfqD4N8A7" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/O/7oIRg1R4KI6g6tCgTmZv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/S/4-UnG0ajkwCx0hFojIJh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/T/3-Pd6KkqhaYwyfYjP+lQ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/F/X/eZPzwn1UkAfKALDsG19m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/+/2a9RfBBCS1Zc-wSgNt6Y" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/+/a2709PsnM04bjFBxaiBm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/2/m-KM+QauOjrGhFPJGdwe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/2/x1ajqhhVI2p7tEqor7e-" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/4/N24F3buMykcUx+yKi1VP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/5/aJfaMSgcfjEnFa9+AhhO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/B/gg-TOMR+nrZ+oCtaDTmF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/D/Ahh-YqSNkduEnP0DGL6B" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/D/zcWpQmJVHX-zJ09Eb44Z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/I/DlReSlgr4+yxyG7ookQZ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/J/kZ2dYtYXT-iMY9wWos5q" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/M/BlVuKYDRz-Mn9QCOgFRn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/M/eV2zE7Ppo5IT-WbwnYjI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/O/IVXQ2titL4keZ3s8huSR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/Q/3ELpTjOSc8epBHHwEcC2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/S/ieztWWmi45u8gFLXtf-6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/U/gtJSWZ3ecKsd3iorsSl0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/U/jnGxMbkiSWEqCxEh3NYS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/V/65Y6dY2a3+XvvA22VWDU" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/X/7K5eh6ehLkveS8J25AdA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/Y/0deQNrxT8xXuh4f7qnoJ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/Y/9v-BuVvTb4L52Rlr4C3l" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/Y/VRuDz+Pde0RKvXV8s7BK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/Y/lC0ZHrgw5eH7z1W8xZnd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/G/Z/MSBAIy3hn26CUeHZFMpV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/+/bcYfMbxGS1XrVMRyvfA8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/-/rfBWO2GDbjlS6uzm-BoA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/2/vf73AzuHXSlLZN864i1o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/6/j8+cghraAhYS0pThVOgm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/A/t+zo8cucUxL6FyI6HtnD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/A/veEWf7CAyt5wuRbLLA-x" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/D/cHJ2KWUB6urbMPuzg2d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/H/vt4N4gw4-G5dEqU-7l1W" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/O/C3XkE6josEOUd4pczFNO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/O/WJlGjmQO0BFaKxpIJsPA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/Q/h+NOI7ogLGXvG9pPOhUw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/R/t3QO8CZK+rRdRfARzHkq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/S/Za-kIOx63vFGezwdiajQ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/T/N-EsLtasApSyOwb7SIrM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/T/yQoxRtTN8sfM92DHKtXi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/Z/Zx+V0i171SLoW86n9ec5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/H/Z/hJKYhXiECOrdt3b8siDP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/4/0spmTLDKQRuj5eXNoC1y" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/B/FvqDkQS+lkfQTl+VavWD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/B/GDB1mkvoraHcFWitgWlo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/B/dcbIWt4-HmhHfdQxLQl3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/D/JDKvZ9gvYVXxp3Trw01Z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/E/QfIqHP6R0whIAr8QxT2y" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/F/6Kq+tYeX4cQsReipwG+e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/H/I1dcfylCrElyE+pZOJQK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/M/rnceocRvffTsbLIVe4T4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/N/o1n1ElweFJ0lhdr-SHkc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/O/tbYy8sMLdKnG-SRzyVLB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/P/9nZIPzFthzEjG512M6-o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/R/+86K3FcLapjn60jpl0md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/R/KMhuw+2YjIllbcBeFAv1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/T/4-yirAcVqHeNHpn-RW4G" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/U/WY+A-AVDWcvQdChtdxpC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/V/frRseTU4YnBjCSgYqC2u" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/W/Tnm6zgGEF0GZmmypJ6V8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/X/gn7Ykg3ICmSuBKcrhVeo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/Z/+2E08iC0TCvdHixWKWsw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/I/Z/qTUUrb1E7ElfwQ4Mp3O4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/J/9/N8etSylfqcI+aVIL0Azh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/J/9/fK-0Qsp8GWHJBogrbkFU" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/J/E/KAIOAWrGdLvdLoApiqkL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/J/G/iTzKcghJDkhrCQAuuR-v" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/J/H/B-SK5GIZ6YDywMLtt6mP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/J/H/Yu-AWQJ0hyq+HBXCAukR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/J/N/+FRaZ8c6em8c9GEQ+O04" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/J/R/YRDiaLYFKhQ4z9sDfSxf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/J/W/T0+GXLzP8znvrq9icqZk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/J/W/cKlyqHKc+F4vxdlGurLe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/J/Z/eVZpbM9NxeNMLgAUnvKf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/1/0E+c6M5qpmphJynvtIUs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/3/0nCyfEzNESjd1pbN7pys" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/9/K2APUNtg1HeND6KsZV07" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/A/2Hy6it1cTFBh1Y3VPxS6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/B/zF1cMNYqMX2mT1CF0PCh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/C/EoKVmR-yUakq-0xBBqlC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/D/Pk98VDSWROx-32FSFiMl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/E/JgoRwE43A7CoB3yRZNUY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/H/ACbEfL7WSFor+wfp58iZ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/H/F5BGZb-4AhW468rljXpe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/K/jRGsBa58vLbmrgY7K8EC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/L/YPdww2gIB-0tHTOOuglP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/M/ER61nSCXz4cLIm5rEPVx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/O/w2XtQkno48VZqlcoZ0N5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/P/z3tByXXY2yPHf-zdw9ig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/P/zXX6IUFjl89cb17EZxD6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/Q/VRgpgoNPDZnl26kW5mfx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/S/LSj3IpgnLsrrMcVyXCBV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/T/gXXX790BNr+Uk2vcP0bk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/W/YCozC9wncBBYqBRn6AD2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/K/X/QHsqOaZBbUCsFC7xEX9x" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/-/PxL6ZmScmAxz-Pnl9pWk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/-/uSi36FS9YIM5WMDtYvcn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/A/4oW6uuuuPVVid9ZOFSzk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/A/asFXfSEXAzU0Ct6ggW3l" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/B/UTXkxozmrqnYUFR7Dp69" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/B/Vez5cPrIvezttblcScL6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/B/a1wGFE4asb2bQRnXzb7S" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/D/n23D+EeFFpOaTn8JsU1k" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/N/PSjd3RDCJqjbOdIqMqqm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/O/cwTEGR2TLvngIvSW78c4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/P/MVfWwheKccuByC+WWfAL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/R/NflnZBci0FJ-Y6ftyg0s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/S/1rU781iOqUD92u9-QHQE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/T/9NDJ+b7ccj3tUTmWZFSQ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/T/Gr28v6BVXQQhQjppuRRN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/V/QSqpxViR+228Wp5QZCqi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/Z/DzPxGK3hLWAL9tA9098Z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/L/Z/bfZTcddM1sHE75t4-QTK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/-/LNadCQlrtOqWzZr9d6W6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/0/Jyqtfhs6oogzuoj2GJfb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/1/V-C0WfuqIPAxrnG3K5ak" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/2/5jz26edrbygp3AE+eNIj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/3/dvFGyJrA-A3hcxMTxhWX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/8/DlBvoNflWbp97hFH5-iS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/B/PUdiIV1fiKHjMNtVrgkz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/B/bmivMDHNVqfPtht+0KvK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/C/IgAdlPr6et4lWAlC3Tnx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/H/VRDf+8T0+bLwbh7990Kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/I/Y99hoiJXiDTU3iy+F5PJ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/I/l-tTBNI-qkr-9LwdvcQD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/I/zjla3OFqQhp8OJ1x+3TX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/J/Jt+EFayXQTrMfp9aRoMP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/M/s7CGq1MQncQdsptM1FEI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/N/AaiqL8l4aevJCCJbF3B5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/Q/nW9OLK3FLegXW-Pl5xa6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/T/KgOQSvWT0r+9U-Var7My" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/U/nhLCgXYI0oHFIjsitFGj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/M/V/eXcNdRS-1d4-m2-ENFUm" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/N/-/lveoJCirzzBJsZwybNQs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/N/2/iGklHjlJhx5fwgiND7uk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/N/4/PYuqjQAYi5R+ejVs0WEs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/N/8/EI-+-R7t-a2XpeejGrw6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/N/A/bSo2pUpv1VDTQrxK1n4z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/N/C/CmJ-kXCmAUlu2zb625OS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/N/C/PvWpmjAKylprasviKjJd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/N/G/2gSp33n5lh+qn555iGGs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/N/I/PIozN+7wvRpqyNt9SjLH" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/N/N/Xzff1A84Lujn7+Y-Hw-n" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/N/Y/JAqLNjSDCxjEogp5gRY0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/N/Z/aSHQRhJ98Um7zkdq8MXs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/O/8/oScUY9+SVpdmUn4Ob7zx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/O/9/VVAq5DDS-jcsTYF5-k1v" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/O/A/ect2IIcLkLZSIDYxRExl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/O/B/NcxAqjpVXsXPzsfzxQpB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/O/B/rNvs5J3wFTV9YLSR06Zo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/O/E/3eLDlm3xbn3c6tyk4Rw3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/O/J/zzydK0gEinnSq6+IRXvN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/O/N/Mf74dIORz0-L4lzt-LUk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/O/T/S2UAOjVEEbVtKkETF0qE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/O/V/Q6gUYNeCAK96VkKiw--I" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/O/W/BxCzpoQZAV0J4u+PSlBS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/O/Z/SaD1FRe+F3ilylhuP5P8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/-/yWOW1By39Rapdo4mL10L" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/0/UmwexJagJ5tBYy6eQeh+" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/1/-JT2BFOFH-WoCVPznTfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/3/gJ-L1wYclxv4rTW7VVzk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/5/iPHSGbhohVAJo4kvcCGu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/8/QghX6BlmRukeNas8EXUW" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/9/qfzhz8Ga9A4LFLjuvasq" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/A/x2UYddj1jB0IqrWysJ5W" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/B/fv9YvSuFAB-TwRDS2LE6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/E/ZxIOlH-L+OtqGzZXlIwh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/I/ezln8ADngqRWNJGO06Bh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/J/GCvX3zrVjAaI0n0jTlko" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/J/WWe-3rglUvh6M5vkakZw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/K/2YsE6nCHn+kUXh5woD1t" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/K/RVwburSv5sSjuCUAOv1C" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/M/k7AYG+eu1XY0G-uSqjwf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/Q/FR79p8teyd0pkMgOVYCV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/Q/aPWv5YMq-MoItfdm95D8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/Q/etTcvPFLTNnZd+lbIFE3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/R/55-At6vpyXh4OLiVmxaw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/S/Kb2TrT0+QwGzA0AiORWn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/U/5HHbPZnx5E9YcmTFQyNo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/U/q-Hmb+rIKBTqjqsMuTaf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/X/KX55Y75DZsYYcemSBWCY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/P/Y/clcEVERsv7CTMt8XtZ+-" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/-/4zWrgWkc8EcAZOILbjM5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/-/zbIV8zFAmPOERfMlrlMU" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/5/I5K-WEL9czx72vI0LBN8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/A/PIDdAGmOmpVGoPvMNyFP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/A/nSBmvl8i9mFTiBn2G5EA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/C/2xv23xSvvUDEt0jhEZMt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/C/MhF+n4Mlucp5ciFmo1UZ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/D/ipwEtyBNyKeAxSMQwkP4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/E/FI92Mb0b03atDK+DNqUL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/F/VXB6uoPHLnwS8ldd6HOK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/G/0HE7lh489u-+s5j85bel" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/N/kNO4zV0jtogd6FJ-4jtY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/Q/+GgXs9qM8srenfxP-7JH" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/S/Cz-qS0rsFls1ugwWAowc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/V/-EdweE+9k1m8+2cUC+Kd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Q/W/UniJUOwxEeiOwi4uy11U" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/+/ee1XjQvjLzO3GH+xg9zS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/0/gLjtTxr+mUaASKoIGWGL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/1/UHi7sgDbocimXWuGaiml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/B/K7Gpg0eXJLXrzPBCqh7F" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/D/P-EJkB+WEvfyFxdZdyyO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/I/vboM+S1Ca7BDNQB-YZPy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/I/xaztobpKa4LxU+RXaqFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/M/0TFsYFQm7SCAs9evl7qH" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/O/ruW58MOKePZFmAddPLtF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/P/tL1UF8vb7alVzkbBxEbE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/Q/GaMFytojhgX4dW-b9Zr4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/Q/sLjeBU+wDhukWLJXwBNa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/V/9tg9yQc37Yev896RZiWS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/V/B2Als3F3dPphy0kDC6lw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/V/GYnV-cqF4XRc9U4fNjjh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/R/Z/fW5bgsHNdHUKWBkL-8Nb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/+/ZyoEJvZtQJy-9KXmymCA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/+/c2ARBdo0s2hIWxJl-8P-" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/0/MH36ztuJXmPRiIq1V30d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/0/cE1PGt4bn3shHGX4zCMo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/3/22PWZVEy1svg03Y2ENF3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/4/2XV0xZdBe5bivJgPbtBo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/8/C9clgtuedWiCaw2QSW64" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/8/Ox70ERlGXtv0NnEFNgTz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/A/N0FzHEjIwjS5WBjzxL2b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/A/rCKp5uWWxUWa0cDA5NcN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/B/YFkYypP4gaqa1KygzG+h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/F/UmOQC8vvaE533Q83DXYz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/G/UxXzm-eyk1yxcJm5dRtC" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/I/O3pA6BD8QbxR35FAWNKi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/M/6r2Ac8kvheR2udUNkiAP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/M/Y2GuaJZl5-U8A2rWpEK6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/N/G85Q0Do5+4gJQG9SFAXX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/P/bwGmAIo0XDNwrTbk3n1v" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/Q/7BvQCFgNLvOI9ZX-eUGy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/S/J0yNzVJljC7Jobh61emv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/S/sxsJoAJ8rBs58issdseX" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/U/BYcaWpbToIgH6yvAufgY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/S/X/eiQA6WQMgWOFTscSa6ps" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/1/wdBqchZd8zbO4u6lHNER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/3/1HmmQUDlT24UwaN-gP1G" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/C/fhoEUrSb7-U3YqFm+BF4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/J/gqLWyxAi8aYhmiJ1AgFg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/K/zWlMfuGPl3iu2pwySDIo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/L/0SrhIPiNK2CUNsipX4N-" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/L/Ei-8RxlHItAAFDaaouX1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/O/+Mdu4VALFpJtjThoUvyV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/R/IH3pLAyb1q1EUX+FrzFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/S/xOtlwJBxtU1sKrEAN55s" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/W/gkYFz1rUXlmG6ioLPp-h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/X/gD3EpPWjXgubUUncJk9P" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/Y/syqNzKAF1rxx0S5JAF6G" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/T/Z/sOhicdXe252g8NJ+7CZt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/2/rTLV01qR+n+MpuHtzP1G" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/4/9H-RyacAe796zZWQAdsj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/7/EBrykbaupj4r8NGdQsYV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/A/-JoBBPAqPexhAInyyaAW" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/B/QOfHaev3hO2YvAFDC0D-" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/C/jYvYWoePWD6e5kcYKV6K" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/H/v3Hwa7Zvl-rJTA2De2Ew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/K/KZrH-NBeyMDT5ZcgZ7se" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/M/3m3Gs7PBDlbCbQ80yYp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/S/Tb5rQm3TaQTr7yKmnOPT" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/U/Di+c2pbf7mRTTWLGfYvZ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/U/kPT6lWBmmd-PYvUgQ64G" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/W/GngNi2x3taTyIDzhlLNd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/W/oKavDsRTcu7nPaTksnSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/X/3O-RTFIZK8x8tvRAas0-" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/U/Y/5kHW9pwRca2nDswnkmm6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/7/2JKP0hh2d5HHQjRvrCPB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/9/8C29FlhmrLRb9vmQcWt5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/A/D9HeJJJFYmMmJ9PuYVHZ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/C/K+87ZvGhy5-9t1d0qFsd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/D/tbn7+ns0SfFMjDMFtMqN" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/E/dNQPhszT09U86OCR52HY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/F/S14j-AUuZYcrIDSS-rFY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/F/dNFyslzNifOgoWz7h5Mz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/I/WddSHaC9tGbixJ0Po66M" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/K/32ELAFRDQ2KGFRpR3V26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/L/SJgcG8ArxQPzLHdaWjoi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/V/lUbcpQKvEnVnijWkxp8t" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/W/0l2Y-5YiJe4mE5mV1pF0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/W/ITI5s3ob717o0JPvaYih" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/W/J8GQQKCMpDSjTSQTpIni" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/W/mZa22nSsxTV7rIEuxd9Z" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/Y/1xVkf+cQoKr4qrbeImxY" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/Y/FVNItuG0KIB1Qzv1LEU+" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/V/Z/hCqDCkGATPmDTv3PsFFG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/0/CWlwMd9IPeZTEOUTkpVV" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/4/5g79ziqOSfQnIloWVssL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/4/Fa5vm75wVhRT0J7ouR9R" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/8/9pZ3dvk9UqMdY1DDahJE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/9/x7whnRano11-pvaTFyGI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/B/5+SXzEFuyOEke8amp4DE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/B/xOQeI0TThn3uRcslmkFU" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/I/59XQSGg-R1LDuGs+5HRM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/K/-NT6wj9NsrWQub1xclfR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/K/wpCXRK1xGpM9gSTq06XG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/L/v+2zMHmrZE1aKZ7NfCse" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/M/mxm-EOAGukl8YXuk7w0h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/M/zIlmq8zlQqYIzyeJJWmf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/Q/yeST-WfoIefyr0r2ickA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/S/sNcPjHZQasA7pTlX2pJ-" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/T/xhfZSP1G2VZj9dJNnTnM" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/U/M52syY7Z3+idgAPGQYj1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/V/YWleZ7fCa0OQT2hzXbL3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/X/-whM7mfHpmmy7+ma9I1b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/W/Z/vlotDXMr5uGmrdjTuWqx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/4/rZaAj8uaECez4dS5g5HI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/5/ZwzJ+r8eofST12+uauyS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/6/vGKadHFdys5tKRKUvELw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/8/rdWTw8moThT90XSftWMy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/E/5GyWkOp+gCKa1J6Vj-ZP" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/E/ep3gV-fziEzD7P2-Te0N" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/H/PoV8rDnWri871njzKW0e" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/O/VqBD35fqgmIFTEJ7Ruzy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/P/0G45vMkDjk-x0wqRaJhv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/P/vHPfJYUTtS3YqJgVSvIy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/Q/4n0cqt-72bNPm9zh0usb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/T/c4fX4m31N3M+UL8qa2Ua" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/V/o5aFMr1-6TArqK5I9Uo4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/X/Z/GEO4U3ibKvZcZ34w6NR5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Y/4/DGR17QehbvCKAAKqP3zi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Y/9/efg1VVao-SpYnhQguyEv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Y/C/C8xGDlzBZScxW8CCWpbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Y/D/btv1soUjS+QL9JMsMtKv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Y/F/trxm2Y9BT8HVXQvAqNYz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Y/H/qOEGJPDEmzDmh0W+Xuc2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Y/N/IR8GHZP+oSrcTP3cCgs1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Y/P/S56CWiBvn1am0pa7ltd0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Y/P/qUOo6PyX+OWGJJeIm4gu" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Y/X/5jPxB6xhxRs42P7+wS9S" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Y/Y/SB4fL72JS3U+OL0Dmj+9" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Y/Z/qwajmqAn9Xq4CNoGfmj5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/+/6edUjHS2KQXCVbaAdFyB" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/+/Z7hwV1P2U3h1HIrQ3VYI" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/-/UZ2Pfzpi+NuCjO26XTag" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/7/gU+4doERKt7QwvYChLwJ" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/C/PGl8zg7u-7W8JieCMG9m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/E/3D0hC8Eu9+-gKWCO66+G" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/F/2wj6UvtuVijCgIfxLGx5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/G/fK9z3t8VXNPSXJ14ymK4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/H/LZmXuUoVnBFhPIzjk-As" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/H/XcU8ow1xukkhFhYQlbCK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/O/FDbEK8SFUjzyilzAUEIK" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/P/-A3+0itql+WUAKFxc+TR" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/Q/R-TK5v6cRMjDYzLXQC6G" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/R/xwqlXP3YQGlqtQ2TbCf3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/T/mVZ6kwXscOawi50dryoD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/V/drnlniRBkXHXRNN63bLd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/pools/z1J+GmhafU/Z/Z/EnAnl1ib4+32neRF0+H0" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/profiler/87/3f/973f87" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/profiler/87/3f/973f87" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -573,48 +31,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig">
+        <entry file="file://$PROJECT_DIR$/Exams/MeTube Statistics.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="18" selection-start-line="16" selection-start-column="1" selection-end-line="32" selection-end-column="18" />
-              <folding>
-                <element signature="e#12#26#0#Twig" expanded="true" />
-                <element signature="e#286#297#0#Twig" expanded="true" />
-                <element signature="e#724#733#0#Twig" expanded="true" />
-                <element signature="e#1203#1211#0#Twig" expanded="true" />
-              </folding>
+            <state relative-caret-position="489">
+              <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Regular Expressions/07. HTML Parser.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Regular Expressions/02. Furniture.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Regular Expressions/01. Extract Emails.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Regular Expressions/03. Race.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
-              <folding>
-                <element signature="e#34#58#0#PHP" expanded="true" />
-                <element signature="e#3669#3675#1#PHP" expanded="true" />
-                <element signature="e#4004#4030#1#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/home/view_post.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding>
-                <element signature="e#12#26#0#Twig" expanded="true" />
-                <element signature="e#360#369#0#Twig" expanded="true" />
-                <element signature="e#881#889#0#Twig" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/Regular Expressions/04. SoftUni Bar Income.php">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -654,10 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basic Web/eshop/app/config/config.yml" />
-        <option value="$PROJECT_DIR$/Basic Web/eshop/app/config/routing.yml" />
-        <option value="$PROJECT_DIR$/Basic Web/eshop/vendor/sonata-project/admin-bundle/src/Admin/CategoryAdmin.php" />
-        <option value="$PROJECT_DIR$/Basic Web/eshop/app/config/services.yml" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/vendor/sonata-project/admin-bundle/src/Admin/PostsAdmin.php" />
         <option value="$PROJECT_DIR$/../../CRUD/TeisterMask/src/AppBundle/Controller/TaskController.php" />
         <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/UserController.php" />
@@ -686,11 +131,8 @@
         <option value="$PROJECT_DIR$/Exams/Chore Wars.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/templates/test.html.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/src/Resources/views/test.html.php" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/framework.yaml" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/src/Form/CreatePostType.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/.gitignore" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/src/Entity/User.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/src/Entity/Category.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/stof_doctrine_extensions.yaml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/easy_admin.yaml" />
@@ -702,9 +144,16 @@
         <option value="$PROJECT_DIR$/Basic Web/web-project/composer.json" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/tests/Controller/HomeControllerTest.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/tests/Repository/PostRepositoryTest.php" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/templates/home/view_post.html.twig" />
+        <option value="$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig" />
+        <option value="$PROJECT_DIR$/Basic Web/web-project/src/Entity/User.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" />
+        <option value="$PROJECT_DIR$/Basic Web/web-project/config/routes/annotations.yaml" />
+        <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/fos_rest.yaml" />
+        <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/framework.yaml" />
+        <option value="$PROJECT_DIR$/Basic Web/web-project/config/services.yaml" />
+        <option value="$PROJECT_DIR$/Basic Web/web-project/src/Controller/ApiController.php" />
       </list>
     </option>
   </component>
@@ -735,58 +184,12 @@
             <path>
               <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
+              <item name="Exams" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="home" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+              <item name="Regular Expressions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -801,6 +204,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="php.test.frameworks.configurable" />
   </component>
   <component name="RecentsManager">
@@ -866,7 +270,10 @@
       <workItem from="1543223364641" duration="208000" />
       <workItem from="1543223634954" duration="27794000" />
       <workItem from="1543310860313" duration="30384000" />
-      <workItem from="1543397857458" duration="43855000" />
+      <workItem from="1543397857458" duration="47144000" />
+      <workItem from="1543593379239" duration="5454000" />
+      <workItem from="1543646662630" duration="693000" />
+      <workItem from="1543647811664" duration="1902000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -966,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543570224431</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update">
+      <created>1543589823956</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1543589823956</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1002,7 +416,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102319000" />
+    <option name="totallyTimeSpent" value="113657000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1014,16 +428,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.13875306" />
-      <window_info id="Structure" order="1" sideWeight="0.502455" side_tool="true" weight="0.17170954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832028" visible="true" weight="0.1785174" />
+      <window_info id="Structure" order="1" sideWeight="0.5016797" side_tool="true" weight="0.13875306" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32922733" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32922733" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.22732362" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.22732362" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49856734" weight="0.32362822" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1031,7 +445,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4987775" weight="0.32922733" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987775" weight="0.39865622" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987775" weight="0.39770868" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50143266" side_tool="true" weight="0.4729951" />
       <window_info anchor="bottom" id="PHP-CGI Server" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1049,92 +463,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/packages/security.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/SecurityController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#34#99#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Form/RegisterType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="e#28#48#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exams/Chat Logger.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String and Text processing/Rage Quit.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/portal-1/portal-1/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/portal-1/portal-1/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="267" column="33" selection-start-line="174" selection-end-line="267" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exams/Google Searches.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exams/MeTube Statistics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="697">
-          <caret line="41" column="85" selection-start-line="41" selection-start-column="85" selection-end-line="41" selection-end-column="85" />
-          <folding>
-            <element signature="e#3806#3815#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/menu.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-          <folding>
-            <element signature="e#488#492#0#Twig" expanded="true" />
-            <element signature="e#613#622#0#Twig" expanded="true" />
-            <element signature="e#741#749#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Security/UserAuthAuthenticator.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1564">
@@ -1158,27 +486,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Resources/views/test.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Resources/views/test.html.php" />
     <entry file="file://$PROJECT_DIR$/../../UpWork.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="104" selection-start-line="3" selection-start-column="104" selection-end-line="3" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="16" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="43" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1195,16 +507,6 @@
           <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
           <folding>
             <element signature="e#28#52#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="38" column="32" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="32" />
-          <folding>
-            <element signature="e#30#78#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1235,16 +537,6 @@
           <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
           <folding>
             <element signature="e#46#54#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Entity/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
-          <folding>
-            <element signature="e#30#62#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1282,13 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/packages/framework.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -1353,9 +638,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeControllerTest.php" />
     <entry file="file://$PROJECT_DIR$/Basic Web/web-project/tests/Repository/PostRepositoryTest.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
@@ -1388,11 +671,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="18" selection-start-line="16" selection-start-column="1" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="391">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
           <folding>
             <element signature="e#12#26#0#Twig" expanded="true" />
             <element signature="e#286#297#0#Twig" expanded="true" />
+            <element signature="e#555#564#0#Twig" expanded="true" />
             <element signature="e#724#733#0#Twig" expanded="true" />
             <element signature="e#1203#1211#0#Twig" expanded="true" />
           </folding>
@@ -1401,27 +685,115 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/home/view_post.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
           <folding>
             <element signature="e#12#26#0#Twig" expanded="true" />
-            <element signature="e#360#369#0#Twig" expanded="true" />
-            <element signature="e#881#889#0#Twig" expanded="true" />
+            <element signature="e#646#654#0#Twig" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Entity/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+          <folding>
+            <element signature="e#30#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/packages/fos_rest.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="104" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="135" column="30" selection-start-line="135" selection-start-column="30" selection-end-line="135" selection-end-column="30" />
+        <state relative-caret-position="170">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/routes/annotations.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/packages/framework.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/services.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/vendor/symfony/serializer/Normalizer/AbstractNormalizer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2057">
+          <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/ApiController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
           <folding>
-            <element signature="e#34#58#0#PHP" expanded="true" />
-            <element signature="e#3669#3675#1#PHP" expanded="true" />
-            <element signature="e#4004#4030#1#PHP" expanded="true" />
+            <element signature="e#34#54#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/MeTube Statistics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regular Expressions/07. HTML Parser.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regular Expressions/02. Furniture.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regular Expressions/01. Extract Emails.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regular Expressions/03. Race.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regular Expressions/04. SoftUni Bar Income.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
