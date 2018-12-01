@@ -40,6 +40,7 @@ class HomeController extends AbstractController
      */
     public function post(Request $request, ValidatorInterface $validator)
     {
+        /* Allow access only to logged in users */
         $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY');
         $post = new Post();
         $form = $this->createForm(CreatePostType::class, $post);
@@ -80,20 +81,28 @@ class HomeController extends AbstractController
      * @param UserPasswordEncoderInterface $passwordEncoder
      * @return \Symfony\Component\HttpFoundation\RedirectResponse|\Symfony\Component\HttpFoundation\Response
      */
-    public function register(Request $request, UserPasswordEncoderInterface $passwordEncoder)
-    {
+    public function register(
+        Request $request,
+        UserPasswordEncoderInterface $passwordEncoder,
+        ValidatorInterface $validator
+    ) {
         $user = new User();
         $form = $this->createForm(RegisterType::class, $user);
         $form->handleRequest($request);
-        if ($form->isSubmitted() && $form->isValid()) {
-            $password = $passwordEncoder->encodePassword($user, $user->getPassword());
-            $user->setPassword($password);
+        if ($form->isSubmitted()) {
+            $errors = $validator->validate($user);
+            if (count($errors) > 0) {
 
-            $em = $this->getDoctrine()->getManager();
-            $em->persist($user);
-            $em->flush();
+            } else {
+                $password = $passwordEncoder->encodePassword($user, $user->getPassword());
+                $user->setPassword($password);
 
-            return $this->redirectToRoute('home');
+                $em = $this->getDoctrine()->getManager();
+                $em->persist($user);
+                $em->flush();
+
+                return $this->redirectToRoute('home');
+            }
         }
 
         return $this->render(
@@ -129,11 +138,12 @@ class HomeController extends AbstractController
      */
     public function viewPost($slug, Post $post = null)
     {
+        //todo implement comments in posts
 
         return $this->render(
             'home/view_post.html.twig',
             [
-               'post' => $post
+                'post' => $post,
             ]
         );
     }

@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/Preparation Exam December 2018.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/01. Dictionary.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Preparation Exam December 2018/02. Deciphering.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/web-project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/web-project/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/composer.lock" afterDir="false" />
@@ -23,6 +14,10 @@
       <change beforePath="$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/annotations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/annotations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Preparation Exam December 2018/Library/var/cache/dev/profiler/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Preparation Exam December 2018/Library/var/cache/dev/profiler/index.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Preparation Exam December 2018/Library/var/logs/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Preparation Exam December 2018/Library/var/logs/dev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Preparation Exam December 2018/Library/var/sessions/dev/sess_3fbc852rala7s3s1isftp3ubnl" beforeDir="false" afterPath="$PROJECT_DIR$/Preparation Exam December 2018/Library/var/sessions/dev/sess_3fbc852rala7s3s1isftp3ubnl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,38 +27,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Exams/MeTube Statistics.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
+            <state relative-caret-position="119">
+              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Regular Expressions/07. HTML Parser.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Regular Expressions/02. Furniture.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Regular Expressions/01. Extract Emails.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Regular Expressions/03. Race.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Regular Expressions/04. SoftUni Bar Income.php">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -184,12 +154,13 @@
             <path>
               <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Exams" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Regular Expressions" type="462c0819:PsiDirectoryNode" />
+              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
+              <item name="web-project" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -273,7 +244,7 @@
       <workItem from="1543397857458" duration="47144000" />
       <workItem from="1543593379239" duration="5454000" />
       <workItem from="1543646662630" duration="693000" />
-      <workItem from="1543647811664" duration="1902000" />
+      <workItem from="1543647811664" duration="1948000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -416,7 +387,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113657000" />
+    <option name="totallyTimeSpent" value="113703000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -429,7 +400,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832028" visible="true" weight="0.1785174" />
       <window_info id="Structure" order="1" sideWeight="0.5016797" side_tool="true" weight="0.13875306" />
@@ -728,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/routes/annotations.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -794,6 +757,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Regular Expressions/04. SoftUni Bar Income.php">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
