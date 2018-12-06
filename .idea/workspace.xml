@@ -2,22 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Basic Web/web-project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/01. Sum Numbers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/2.Show More.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/3.Collect List Items.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/4.Colorize Table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/5.Countdown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/6.Extract Parenthesis.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/7.Sum Table.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascripterio/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascripterio/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascripterio/segment.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/config/packages/framework.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/config/packages/framework.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/config/routes/annotations.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/config/routes/annotations.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/src/Entity/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/annotations.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/annotations.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Preparation Exam December 2018/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Preparation Exam December 2018/Library/var/cache/dev/profiler/index.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Preparation Exam December 2018/Library/var/cache/dev/profiler/index.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Preparation Exam December 2018/Library/var/logs/dev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Preparation Exam December 2018/Library/var/logs/dev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Preparation Exam December 2018/Library/var/sessions/dev/sess_3fbc852rala7s3s1isftp3ubnl" beforeDir="false" afterPath="$PROJECT_DIR$/Preparation Exam December 2018/Library/var/sessions/dev/sess_3fbc852rala7s3s1isftp3ubnl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/src/Entity/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/src/Entity/Post.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,17 +23,63 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/3.Collect List Items.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+            <state relative-caret-position="272">
+              <caret line="16" selection-start-line="16" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/4.Colorize Table.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="522">
+              <caret line="31" selection-start-line="31" selection-end-line="39" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/5.Countdown.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+              <folding>
+                <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/6.Extract Parenthesis.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" selection-start-line="22" selection-end-line="33" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/7.Sum Table.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -73,14 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basic Web/eshop/vendor/sonata-project/admin-bundle/src/Admin/PostsAdmin.php" />
-        <option value="$PROJECT_DIR$/../../CRUD/TeisterMask/src/AppBundle/Controller/TaskController.php" />
-        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/UserController.php" />
-        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/RegisterController.php" />
-        <option value="$PROJECT_DIR$/Basic Web/eshop/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/Basic Web/eshop/src/AppBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/Basic Web/eshop/composer.json" />
-        <option value="$PROJECT_DIR$/Basic Web/eshop/vendor/sonata-project/admin-bundle/src/Form/DataTransformer/ModelsToArrayTransformer.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/var/cache/dev/srcDevDebugProjectContainer.xml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/routes.yaml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/translations/messages.en.yml" />
@@ -124,16 +159,24 @@
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/framework.yaml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/services.yaml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/src/Controller/ApiController.php" />
+        <option value="$PROJECT_DIR$/JS Core/Arrays, Matrices, Multi-Dimensional Arrays/1.Sum First Last.js" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/01. Sum Numbers.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/2.Show More.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/3.Collect List Items.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/4.Colorize Table.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/5.Countdown.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/6.Extract Parenthesis.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/7.Sum Table.html" />
       </list>
     </option>
   </component>
   <component name="PhpDebugGeneral" break_at_first_line="true" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.2" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="140" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="970" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1216" />
+    <option name="height" value="576" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -143,7 +186,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,19 +201,26 @@
             <path>
               <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Basic Web" type="462c0819:PsiDirectoryNode" />
-              <item name="web-project" type="462c0819:PsiDirectoryNode" />
+              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
+              <item name="JS Advanced" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Basic Web/web-project/config/bootstrap.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -198,32 +247,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHPUnit.ProductRepositoryTest.testSearchByCategoryName">
-    <configuration name="HomeControllerTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="HomeControllerTest" file="$PROJECT_DIR$/Basic Web/web-project/tests/Controller/HomeControllerTest.php" scope="Class" />
+  <component name="RunManager" selected="JavaScript Debug.7.Sum Table.html">
+    <configuration name="3.Collect List Items.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/Document Object Model/3.Collect List Items.html">
       <method v="2" />
     </configuration>
-    <configuration name="HomeControllerTest.testViewCat" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="HomeControllerTest" file="$PROJECT_DIR$/Basic Web/web-project/tests/Controller/HomeControllerTest.php" method="testViewCat" scope="Method" />
+    <configuration name="4.Colorize Table.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/Document Object Model/4.Colorize Table.html">
       <method v="2" />
     </configuration>
-    <configuration name="ProductRepositoryTest.testSearchByCategoryName" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tests\Repository\ProductRepositoryTest" file="$PROJECT_DIR$/Basic Web/web-project/tests/Repository/PostRepositoryTest.php" method="testSearchByCategoryName" scope="Method" />
+    <configuration name="5.Countdown.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/Document Object Model/5.Countdown.html">
       <method v="2" />
     </configuration>
-    <configuration name="Chore Wars.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Exams/Chore Wars.php">
+    <configuration name="6.Extract Parenthesis.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/Document Object Model/6.Extract Parenthesis.html">
       <method v="2" />
     </configuration>
-    <configuration name="MeTube Statistics.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Exams/MeTube Statistics.php">
+    <configuration name="7.Sum Table.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/Document Object Model/7.Sum Table.html">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="PHPUnit.ProductRepositoryTest.testSearchByCategoryName" />
-        <item itemvalue="PHPUnit.HomeControllerTest" />
-        <item itemvalue="PHPUnit.HomeControllerTest.testViewCat" />
-        <item itemvalue="PHP Script.MeTube Statistics.php" />
-        <item itemvalue="PHP Script.Chore Wars.php" />
+        <item itemvalue="JavaScript Debug.7.Sum Table.html" />
+        <item itemvalue="JavaScript Debug.6.Extract Parenthesis.html" />
+        <item itemvalue="JavaScript Debug.5.Countdown.html" />
+        <item itemvalue="JavaScript Debug.4.Colorize Table.html" />
+        <item itemvalue="JavaScript Debug.3.Collect List Items.html" />
       </list>
     </recent_temporary>
   </component>
@@ -245,6 +291,10 @@
       <workItem from="1543593379239" duration="5454000" />
       <workItem from="1543646662630" duration="693000" />
       <workItem from="1543647811664" duration="1948000" />
+      <workItem from="1543660262400" duration="2531000" />
+      <workItem from="1543846293188" duration="536000" />
+      <workItem from="1544037824511" duration="1127000" />
+      <workItem from="1544097333651" duration="3051000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -351,7 +401,14 @@
       <option name="project" value="LOCAL" />
       <updated>1543589823956</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update">
+      <created>1543660358437</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1543660358437</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -387,7 +444,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113703000" />
+    <option name="totallyTimeSpent" value="120948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,9 +456,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832028" visible="true" weight="0.1785174" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832028" visible="true" weight="0.19987775" />
+      <window_info id="Structure" order="1" sideWeight="0.5016797" side_tool="true" weight="0.13875306" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.32922733" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.22732362" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49856734" weight="0.32362822" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32922733" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4987775" weight="0.32922733" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987775" weight="0.3975364" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50143266" side_tool="true" weight="0.4729951" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832028" visible="true" weight="0.2067474" />
       <window_info id="Structure" order="1" sideWeight="0.5016797" side_tool="true" weight="0.13875306" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32922733" />
@@ -422,7 +502,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -433,54 +513,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Security/UserAuthAuthenticator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="92" column="69" selection-start-line="92" selection-start-column="69" selection-end-line="92" selection-end-column="69" />
-          <folding>
-            <element signature="e#32#52#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/packages/twig.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/packages/twig_extensions.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exams/Chore Wars.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Resources/views/test.html.php" />
-    <entry file="file://$PROJECT_DIR$/../../UpWork.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="104" selection-start-line="3" selection-start-column="104" selection-end-line="3" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Form/CreatePostType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="46" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
-          <folding>
-            <element signature="e#28#52#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/packages/stof_doctrine_extensions.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -760,8 +792,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        <state relative-caret-position="374">
+          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
+          <folding>
+            <element signature="e#34#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/Arrays, Matrices, Multi-Dimensional Arrays/1.Sum First Last.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/01. Sum Numbers.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/2.Show More.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" selection-start-line="11" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/3.Collect List Items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/4.Colorize Table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="31" selection-start-line="31" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/5.Countdown.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/6.Extract Parenthesis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" selection-start-line="22" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/7.Sum Table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
         </state>
       </provider>
     </entry>
