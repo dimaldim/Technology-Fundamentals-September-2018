@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CodeWars/CaesarCipher.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/7.Sum Table.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/7.Sum Table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascripterio/.idea/deployment.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascripterio/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Javascripterio/segment.js" beforeDir="false" />
-    </list>
+    <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,10 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.CaesarCipher.php">
-    <configuration name="4.Colorize Table.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/Document Object Model/4.Colorize Table.html">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHP Script.Mean Square Error.php">
     <configuration name="5.Countdown.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/Document Object Model/5.Countdown.html">
       <method v="2" />
     </configuration>
@@ -191,13 +181,16 @@
     <configuration name="CaesarCipher.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/CodeWars/CaesarCipher.php">
       <method v="2" />
     </configuration>
+    <configuration name="Mean Square Error.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/CodeWars/Mean Square Error.php">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.Mean Square Error.php" />
         <item itemvalue="PHP Script.CaesarCipher.php" />
         <item itemvalue="JavaScript Debug.7.Sum Table.html" />
         <item itemvalue="JavaScript Debug.6.Extract Parenthesis.html" />
         <item itemvalue="JavaScript Debug.5.Countdown.html" />
-        <item itemvalue="JavaScript Debug.4.Colorize Table.html" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +215,7 @@
       <workItem from="1543660262400" duration="2531000" />
       <workItem from="1543846293188" duration="536000" />
       <workItem from="1544037824511" duration="1127000" />
-      <workItem from="1544097333651" duration="6990000" />
+      <workItem from="1544097333651" duration="7702000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -343,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544102425254</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Update">
+      <created>1544186125110</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1544186125110</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -379,7 +379,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124887000" />
+    <option name="totallyTimeSpent" value="125599000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
