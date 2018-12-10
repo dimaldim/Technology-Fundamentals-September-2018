@@ -5,7 +5,6 @@ namespace App\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use Gedmo\Mapping\Annotation as Gedmo;
 use Symfony\Component\Validator\Constraints as Assert;
-use Symfony\Component\Serializer\Annotation\MaxDepth;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\PostRepository")
@@ -52,6 +51,21 @@ class Post
      * @ORM\Column(length=255, unique=true)
      */
     private $slug;
+
+    /**
+     * @ORM\Column(type="integer")
+     */
+    private $views;
+
+    /**
+     * Post constructor.
+     * @throws \Exception
+     */
+    public function __construct()
+    {
+        $this->created_at = new \DateTime('now');
+        $this->views = 0;
+    }
 
     public function getId(): ?int
     {
@@ -137,6 +151,18 @@ class Post
     public function setSlug($slug): void
     {
         $this->slug = $slug;
+    }
+
+    public function getViews(): ?int
+    {
+        return $this->views;
+    }
+
+    public function setViews(int $views): self
+    {
+        $this->views = $views;
+
+        return $this;
     }
 
 }

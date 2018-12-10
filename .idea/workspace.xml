@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="" />
+    <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/01.List of Items.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/02.Add and Delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/03. Delete From Table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/src/Entity/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/src/Entity/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/templates/home/category.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/home/category.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +18,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/03. Delete From Table.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,9 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basic Web/web-project/config/routes.yaml" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/translations/messages.en.yml" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/translation.yaml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/vendor/easycorp/easyadmin-bundle/src/Resources/translations/messages.bg.xlf" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/src/Controller/SecurityController.php" />
@@ -78,17 +94,13 @@
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/stof_doctrine_extensions.yaml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/easy_admin.yaml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/templates/categories.html.twig" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/templates/home/category.html.twig" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/src/Entity/Post.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/templates/home/createpost.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/.env.test" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/composer.json" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/tests/Controller/HomeControllerTest.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/tests/Repository/PostRepositoryTest.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/templates/home/view_post.html.twig" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/src/Entity/User.php" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/routes/annotations.yaml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/fos_rest.yaml" />
@@ -104,6 +116,13 @@
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/6.Extract Parenthesis.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/Document Object Model/7.Sum Table.html" />
         <option value="$PROJECT_DIR$/CodeWars/CaesarCipher.php" />
+        <option value="$PROJECT_DIR$/Basic Web/web-project/src/Entity/Post.php" />
+        <option value="$PROJECT_DIR$/Basic Web/web-project/templates/home/category.html.twig" />
+        <option value="$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig" />
+        <option value="$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/01.List of Items.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/2.Add and Delete.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/03. Delete From Table.html" />
       </list>
     </option>
   </component>
@@ -123,6 +142,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,11 +150,28 @@
               <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
+              <item name="JS Advanced" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
+              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
+              <item name="JS Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="DOM Manipulation" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -168,14 +205,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.Mean Square Error.php">
-    <configuration name="5.Countdown.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/Document Object Model/5.Countdown.html">
+  <component name="RunManager" selected="JavaScript Debug.03. Delete From Table.html">
+    <configuration name="01.List of Items.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/DOM Manipulation/01.List of Items.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="6.Extract Parenthesis.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/Document Object Model/6.Extract Parenthesis.html">
+    <configuration name="02.Add and Delete.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/DOM Manipulation/02.Add and Delete.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="7.Sum Table.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/Document Object Model/7.Sum Table.html">
+    <configuration name="03. Delete From Table.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/DOM Manipulation/03. Delete From Table.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="CaesarCipher.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/CodeWars/CaesarCipher.php">
@@ -186,11 +223,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.03. Delete From Table.html" />
+        <item itemvalue="JavaScript Debug.02.Add and Delete.html" />
+        <item itemvalue="JavaScript Debug.01.List of Items.html" />
         <item itemvalue="PHP Script.Mean Square Error.php" />
         <item itemvalue="PHP Script.CaesarCipher.php" />
-        <item itemvalue="JavaScript Debug.7.Sum Table.html" />
-        <item itemvalue="JavaScript Debug.6.Extract Parenthesis.html" />
-        <item itemvalue="JavaScript Debug.5.Countdown.html" />
       </list>
     </recent_temporary>
   </component>
@@ -216,6 +253,8 @@
       <workItem from="1543846293188" duration="536000" />
       <workItem from="1544037824511" duration="1127000" />
       <workItem from="1544097333651" duration="7702000" />
+      <workItem from="1544432283094" duration="123000" />
+      <workItem from="1544432547716" duration="7400000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -343,7 +382,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544186125110</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Update">
+      <created>1544432370107</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1544432370107</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -379,7 +425,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="125599000" />
+    <option name="totallyTimeSpent" value="133122000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -392,14 +438,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832028" visible="true" weight="0.19987775" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832028" visible="true" weight="0.20476772" />
       <window_info id="Structure" order="1" sideWeight="0.5016797" side_tool="true" weight="0.13875306" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32922733" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.22732362" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.22732362" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49856734" weight="0.32362822" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -448,42 +495,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/packages/sensio_framework_extra.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/categories.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
-          <folding>
-            <element signature="e#46#54#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/home/createpost.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/vendor/symfony/security-bundle/Tests/Functional/app/MissingUserProvider/routing.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/security/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/packages/doctrine.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -579,30 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/home/category.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="136" selection-start-line="26" selection-start-column="136" selection-end-line="26" selection-end-column="136" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-            <element signature="e#286#297#0#Twig" expanded="true" />
-            <element signature="e#555#564#0#Twig" expanded="true" />
-            <element signature="e#724#733#0#Twig" expanded="true" />
-            <element signature="e#1203#1211#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/home/view_post.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -611,13 +598,6 @@
             <element signature="e#12#26#0#Twig" expanded="true" />
             <element signature="e#646#654#0#Twig" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Entity/Post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="54" />
         </state>
       </provider>
     </entry>
@@ -708,16 +688,6 @@
     <entry file="file://$PROJECT_DIR$/Regular Expressions/04. SoftUni Bar Income.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="e#34#58#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS Core/Arrays, Matrices, Multi-Dimensional Arrays/1.Sum First Last.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -791,6 +761,90 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <folding>
+            <element signature="e#30#78#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Entity/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="66" column="25" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="25" />
+          <folding>
+            <element signature="e#30#62#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/categories.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding>
+            <element signature="e#46#54#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/home/category.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="99" selection-start-line="17" selection-start-column="99" selection-end-line="17" selection-end-column="99" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+            <element signature="e#720#729#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/home/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding>
+            <element signature="e#12#26#0#Twig" expanded="true" />
+            <element signature="e#286#297#0#Twig" expanded="true" />
+            <element signature="e#555#564#0#Twig" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="55" column="18" lean-forward="true" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+          <folding>
+            <element signature="e#34#58#0#PHP" expanded="true" />
+            <element signature="e#1326#1348#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/01.List of Items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="25" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/02.Add and Delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/03. Delete From Table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="42" lean-forward="true" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
         </state>
       </provider>
     </entry>

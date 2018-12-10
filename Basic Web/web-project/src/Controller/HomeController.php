@@ -56,7 +56,6 @@ class HomeController extends AbstractController
                     ]
                 );
             }
-            $post->setCreatedAt(new \DateTime());
             /** @var \App\Entity\User $user */
             $user = $this->getUser();
             $post->setAuthor($user);
@@ -139,6 +138,12 @@ class HomeController extends AbstractController
     public function viewPost($slug, Post $post = null)
     {
         //todo implement comments in posts
+
+        //Increase post views
+        $em = $this->getDoctrine()->getManager();
+        $post->setViews($post->getViews() + 1);
+        $em->persist($post);
+        $em->flush();
 
         return $this->render(
             'home/view_post.html.twig',

@@ -5,7 +5,6 @@
 {% block body %}
 
     <!-- Center Column -->
-
     <div class="col-sm-6">
         {% if is_granted('IS_AUTHENTICATED_FULLY') %}
             <div class="form-group">
@@ -31,6 +30,7 @@
                         </li>
                         <li class="list-inline-item"><i class="fa fa-comments"></i><a href="#"> </span> 0
                                 коментар(и)</a></li>
+                        <li class="list-inline-item"><i class="fa fa-eye"></i> {{ post.views }}</li>
                     </ul>
                 </article>
             </div>
