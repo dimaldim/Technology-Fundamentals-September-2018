@@ -14,28 +14,55 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Book Generator.html">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Calendar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/DOM Search.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            <state relative-caret-position="369">
+              <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="86" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Increment Counter.html">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Wiki Parser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="459">
+              <caret line="27" selection-start-line="27" selection-end-line="38" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/1.Aggregates.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" selection-start-line="10" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/2.Currency Format.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="23" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/3.Command Processor.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="24" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/4.Max Element.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -46,8 +73,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -86,13 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basic Web/web-project/composer.json" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/tests/Controller/HomeControllerTest.php" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/tests/Repository/PostRepositoryTest.php" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/templates/home/view_post.html.twig" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/src/Entity/User.php" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/config/routes/annotations.yaml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/fos_rest.yaml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/framework.yaml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/services.yaml" />
@@ -137,6 +157,13 @@
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Book Generator.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Form Validation.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/DOM Search.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Calendar.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Wiki Parser.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/1.Aggregates.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/2.Currency Format.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/3.Command Processor.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/4.Max Element.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/4.Max Element.js" />
       </list>
     </option>
   </component>
@@ -180,7 +207,7 @@
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
               <item name="JS Core" type="462c0819:PsiDirectoryNode" />
               <item name="JS Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced Functions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -220,29 +247,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.DOM Search.html">
-    <configuration name="05.Selectable Towns.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/05.Selectable Towns.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="Node.js.4.Max Element.js">
+    <configuration name="1.Aggregates.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/Advanced Functions/1.Aggregates.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Book Generator.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/Book Generator.html" useBuiltInWebServerPort="true">
+    <configuration name="2.Currency Format.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/Advanced Functions/2.Currency Format.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="DOM Search.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/DOM Search.html" useBuiltInWebServerPort="true">
+    <configuration name="3.Command Processor.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/Advanced Functions/3.Command Processor.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Increment Counter.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/Increment Counter.html" useBuiltInWebServerPort="true">
+    <configuration name="Wiki Parser.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/Wiki Parser.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Timer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/Timer.html" useBuiltInWebServerPort="true">
+    <configuration name="4.Max Element.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/4.Max Element.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.DOM Search.html" />
-        <item itemvalue="JavaScript Debug.Book Generator.html" />
-        <item itemvalue="JavaScript Debug.Timer.html" />
-        <item itemvalue="JavaScript Debug.Increment Counter.html" />
-        <item itemvalue="JavaScript Debug.05.Selectable Towns.html" />
+        <item itemvalue="Node.js.4.Max Element.js" />
+        <item itemvalue="JavaScript Debug.3.Command Processor.html" />
+        <item itemvalue="JavaScript Debug.2.Currency Format.html" />
+        <item itemvalue="JavaScript Debug.1.Aggregates.html" />
+        <item itemvalue="JavaScript Debug.Wiki Parser.html" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +296,7 @@
       <workItem from="1544037824511" duration="1127000" />
       <workItem from="1544097333651" duration="7702000" />
       <workItem from="1544432283094" duration="123000" />
-      <workItem from="1544432547716" duration="23401000" />
+      <workItem from="1544432547716" duration="26485000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -446,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544521279923</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Update">
+      <created>1544523876038</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1544523876038</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -482,7 +516,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149123000" />
+    <option name="totallyTimeSpent" value="152207000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,42 +586,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/vendor/symfony/serializer/Normalizer/AbstractNormalizer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2057">
-          <caret line="137" column="20" selection-start-line="137" selection-start-column="20" selection-end-line="137" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/ApiController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-          <folding>
-            <element signature="e#34#54#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Exams/MeTube Statistics.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="100" column="26" selection-start-line="100" selection-start-column="26" selection-end-line="100" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Regular Expressions/07. HTML Parser.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Regular Expressions/02. Furniture.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Regular Expressions/01. Extract Emails.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Regular Expressions/03. Race.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Regular Expressions/04. SoftUni Bar Income.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -917,8 +915,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/DOM Search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        <state relative-caret-position="590">
+          <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Calendar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="35" column="2" lean-forward="true" selection-start-line="35" selection-start-column="2" selection-end-line="86" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Wiki Parser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" selection-start-line="27" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/1.Aggregates.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/2.Currency Format.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/4.Max Element.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/3.Command Processor.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/4.Max Element.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
         </state>
       </provider>
     </entry>
