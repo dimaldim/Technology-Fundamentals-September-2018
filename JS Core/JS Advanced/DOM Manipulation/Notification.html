@@ -60,7 +60,14 @@
 </div>
 <script>
     function notify(message) {
-        // TODO:
+        let div = document.getElementById('notification');
+        div.style.display = 'block';
+        div.textContent = message;
+        setTimeout(fadeOut, 2000);
+
+        function fadeOut() {
+            document.getElementById('notification').style.display = 'none';
+        }
     }
 </script>
 </body>
