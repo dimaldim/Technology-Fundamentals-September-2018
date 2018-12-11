@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Distance Converter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Time Converter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/01.Text from List.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/02.Search in List.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/03.Countries Table.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Notification.html" beforeDir="false" afterPath="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Notification.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,28 +16,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Notification.html">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/01.Text from List.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+            <state relative-caret-position="323">
+              <caret line="19" selection-start-line="19" selection-end-line="25" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Time Converter.html">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/02.Search in List.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="425">
+              <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Distance Converter.html">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/03.Countries Table.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="53" selection-start-line="53" selection-end-line="54" selection-end-column="70" />
+            <state relative-caret-position="578">
+              <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -88,9 +88,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basic Web/web-project/templates/test.html.php" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/src/Resources/views/test.html.php" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/src/Form/CreatePostType.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/.gitignore" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/src/Entity/Category.php" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/stof_doctrine_extensions.yaml" />
@@ -139,6 +136,9 @@
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Notification.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Time Converter.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Distance Converter.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/01.Text from List.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/02.Search in List.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/03.Countries Table.html" />
       </list>
     </option>
   </component>
@@ -182,7 +182,7 @@
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
               <item name="JS Core" type="462c0819:PsiDirectoryNode" />
               <item name="JS Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="DOM Manipulation" type="462c0819:PsiDirectoryNode" />
+              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -222,17 +222,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Distance Converter.html">
-    <configuration name="Accordion.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/DOM Manipulation/Accordion.html" useBuiltInWebServerPort="true">
+  <component name="RunManager" selected="JavaScript Debug.03.Countries Table.html">
+    <configuration name="01.Text from List.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/01.Text from List.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="02.Search in List.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/02.Search in List.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="03.Countries Table.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/03.Countries Table.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Distance Converter.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/DOM Manipulation/Distance Converter.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="Notification.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/DOM Manipulation/Notification.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="Sections.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/DOM Manipulation/Sections.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="Time Converter.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/DOM Manipulation/Time Converter.html" useBuiltInWebServerPort="true">
@@ -240,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.03.Countries Table.html" />
+        <item itemvalue="JavaScript Debug.02.Search in List.html" />
+        <item itemvalue="JavaScript Debug.01.Text from List.html" />
         <item itemvalue="JavaScript Debug.Distance Converter.html" />
         <item itemvalue="JavaScript Debug.Time Converter.html" />
-        <item itemvalue="JavaScript Debug.Notification.html" />
-        <item itemvalue="JavaScript Debug.Sections.html" />
-        <item itemvalue="JavaScript Debug.Accordion.html" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +271,7 @@
       <workItem from="1544037824511" duration="1127000" />
       <workItem from="1544097333651" duration="7702000" />
       <workItem from="1544432283094" duration="123000" />
-      <workItem from="1544432547716" duration="15033000" />
+      <workItem from="1544432547716" duration="17757000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -420,7 +420,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544469053398</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Update">
+      <created>1544512141709</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1544512141709</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -456,7 +463,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140755000" />
+    <option name="totallyTimeSpent" value="143479000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -471,7 +478,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832028" visible="true" weight="0.20476772" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49832028" visible="true" weight="0.20476772" />
       <window_info id="Structure" order="1" sideWeight="0.5016797" side_tool="true" weight="0.13875306" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32922733" />
@@ -526,27 +533,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/src/Controller/HomeControllerTest.php" />
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/tests/Repository/PostRepositoryTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-          <folding>
-            <element signature="e#85#108#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/tests/Controller/HomeControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="e#6#40#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/home/view_post.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -885,10 +871,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Notification.html">
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Distance Converter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        <state relative-caret-position="386">
+          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -899,10 +885,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Distance Converter.html">
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Notification.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="53" selection-start-line="53" selection-end-line="54" selection-end-column="70" />
+        <state relative-caret-position="488">
+          <caret line="60" column="8" lean-forward="true" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/01.Text from List.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" selection-start-line="19" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/02.Search in List.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="31" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/03.Countries Table.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" column="4" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
         </state>
       </provider>
     </entry>
