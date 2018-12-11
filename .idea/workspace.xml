@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/04.Link Buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/05.Selectable Towns.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Increment Counter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Timer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,7 +13,35 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/05.Selectable Towns.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Increment Counter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Timer.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="748">
+              <caret line="52" column="62" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -59,8 +87,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/stof_doctrine_extensions.yaml" />
-        <option value="$PROJECT_DIR$/Basic Web/web-project/config/packages/easy_admin.yaml" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/templates/categories.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/templates/home/createpost.html.twig" />
         <option value="$PROJECT_DIR$/Basic Web/web-project/.env.test" />
@@ -110,6 +136,8 @@
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/03.Countries Table.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/04.Link Buttons.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/05.Selectable Towns.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Increment Counter.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Timer.html" />
       </list>
     </option>
   </component>
@@ -193,13 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.05.Selectable Towns.html">
-    <configuration name="01.Text from List.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/01.Text from List.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="02.Search in List.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/02.Search in List.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.Timer.html">
     <configuration name="03.Countries Table.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/03.Countries Table.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -209,13 +231,19 @@
     <configuration name="05.Selectable Towns.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/05.Selectable Towns.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
+    <configuration name="Increment Counter.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/Increment Counter.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Timer.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Advanced/jQuery/Timer.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Timer.html" />
+        <item itemvalue="JavaScript Debug.Increment Counter.html" />
         <item itemvalue="JavaScript Debug.05.Selectable Towns.html" />
         <item itemvalue="JavaScript Debug.04.Link Buttons.html" />
         <item itemvalue="JavaScript Debug.03.Countries Table.html" />
-        <item itemvalue="JavaScript Debug.02.Search in List.html" />
-        <item itemvalue="JavaScript Debug.01.Text from List.html" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +270,7 @@
       <workItem from="1544037824511" duration="1127000" />
       <workItem from="1544097333651" duration="7702000" />
       <workItem from="1544432283094" duration="123000" />
-      <workItem from="1544432547716" duration="18901000" />
+      <workItem from="1544432547716" duration="20870000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -405,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544515366710</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Update">
+      <created>1544516389337</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1544516389337</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -441,7 +476,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144623000" />
+    <option name="totallyTimeSpent" value="146592000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -454,6 +489,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49832028" visible="true" weight="0.20476772" />
       <window_info id="Structure" order="1" sideWeight="0.5016797" side_tool="true" weight="0.13875306" />
@@ -510,23 +546,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/templates/security/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding>
-            <element signature="e#12#26#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/packages/fos_rest.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="104" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Basic Web/web-project/config/routes/annotations.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -878,8 +897,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/05.Selectable Towns.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="48" selection-end-column="5" />
+        <state relative-caret-position="544">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Increment Counter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Timer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="52" column="62" selection-start-line="52" selection-start-column="62" selection-end-line="52" selection-end-column="62" />
         </state>
       </provider>
     </entry>
