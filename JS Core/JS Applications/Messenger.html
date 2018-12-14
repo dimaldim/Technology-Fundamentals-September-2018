@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Messenger</title>
+    <style>
+        label {
+            display: inline-block;
+            width: 5em;
+        }
+
+        #author, #content {
+            width: 30em;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<div id="main">
+    <textarea id="messages" cols="80" rows="12" disabled="true"></textarea>
+    <div id="controls">
+        <label for="author">Name: </label><input id="author" type="text"><br>
+        <label for="content">Message: </label><input id="content" type="text">
+        <input id="submit" type="button" value="Send">
+        <input id="refresh" type="button" value="Refresh">
+    </div>
+</div>
+<script>
+    attachEvents();
+    function attachEvents() {
+        let apiUrl = 'https://softuni-2116e.firebaseio.com/messenger';
+
+        function loadMessages() {
+            $.get(apiUrl + ".json")
+                .then(displayMessages);
+        }
+
+        function displayMessages(messages) {
+            $('#messages').empty();
+            let orderedMessages = {};
+            messages = Object.keys(messages).sort((a, b) => a.timestamp - b.timestamp).forEach(k => orderedMessages[k] = messages[k]);
+            for (let message of Object.keys(orderedMessages)) {
+                $('#messages').append(`${orderedMessages[message]['author']}: ${orderedMessages[message]['content']}\n`);
+            }
+        }
+
+        function createMessage() {
+            let data = {
+                author: $('#author').val(),
+                content: $('#content').val(),
+                timestamp: Date.now()
+            };
+
+            $.post(apiUrl + ".json", JSON.stringify(data))
+                .then(loadMessages)
+            $('#author').val('');
+            $('#content').val('');
+        }
+
+        $('#submit').click(createMessage);
+        $('#refresh').click(loadMessages);
+
+        loadMessages();
+    }
+</script>
+</body>
+</html>
