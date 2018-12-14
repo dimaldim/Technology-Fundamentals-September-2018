@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+</head>
+<body>
+<input type="text" name="user" id="user"/>
+<button onClick="load()">Load</button>
+<div id="result"></div>
+<script>
+    function load() {
+        let url = 'https://selvbetjening.trafikstyrelsen.dk/Sider/resultater.aspx?Reg=' + $("#user").val();
+        $("#result").load('query.php?user=' + $("#user").val());
+    }
+</script>
+</body>
+</html>

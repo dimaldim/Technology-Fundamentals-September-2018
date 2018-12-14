@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function executeCommand(data) {
+        let commandProcessor = (function () {
+            let text = '';
+            return {
+                append: (newText) => text += newText,
+                removeStart: (count) => text = text.slice(count),
+                removeEnd: (count) => text = text.slice(0, text.length - count),
+                print: () => console.log(text)
+            }
+        })();
+
+        data
+            .forEach(command => {
+                let [name, argument] = command.split(/\s+/);
+                commandProcessor[name](argument);
+            })
+    }
+</script>
+</body>
+</html>
