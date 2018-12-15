@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS Core/JS Applications/Bus Schedule.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JS Core/JS Applications/Messenger.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exams/Post Office.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,42 +12,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS Core/JS Applications/Bus Schedule.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../messenger.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS Core/JS Applications/Messenger.html">
+        <entry file="file://$PROJECT_DIR$/Exams/Post Office.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JS Core/JS Applications/Bus Stop.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="340">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -105,8 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/2.Add and Delete.html" />
-        <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/03. Delete From Table.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/04.Stopwatch.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/05.Mouse Gradient.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/05.Mouse Gradient/index.html" />
@@ -130,7 +97,6 @@
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Timer.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Book Generator.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Form Validation.html" />
-        <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/DOM Search.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Calendar.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/Wiki Parser.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/Advanced Functions/1.Aggregates.html" />
@@ -156,6 +122,9 @@
         <option value="$PROJECT_DIR$/JS Core/JS Applications/Bus Schedule.html" />
         <option value="$PROJECT_DIR$/../../messenger.json" />
         <option value="$PROJECT_DIR$/JS Core/JS Applications/Messenger.html" />
+        <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/DOM Search.html" />
+        <option value="$PROJECT_DIR$/Exams/Chat Logger.php" />
+        <option value="$PROJECT_DIR$/Exams/Post Office.php" />
       </list>
     </option>
   </component>
@@ -175,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,20 +154,12 @@
             <path>
               <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
+              <item name="Exams" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
               <item name="JS Core" type="462c0819:PsiDirectoryNode" />
-              <item name="JS Advanced" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
-              <item name="JS Advanced" type="462c0819:PsiDirectoryNode" />
-              <item name="jQuery" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
@@ -211,6 +171,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Messenger.html">
+  <component name="RunManager" selected="PHP Script.Post Office.php">
     <configuration name="3.Github Repos.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Applications/3.Github Repos.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -258,16 +219,16 @@
     <configuration name="Messenger.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Applications/Messenger.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="query.php" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/Basic Web/web-project/public/query.php" useBuiltInWebServerPort="true">
+    <configuration name="Post Office.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Exams/Post Office.php">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.Post Office.php" />
         <item itemvalue="JavaScript Debug.Messenger.html" />
         <item itemvalue="JavaScript Debug.Bus Schedule.html" />
         <item itemvalue="JavaScript Debug.Bus Stop.html" />
         <item itemvalue="JavaScript Debug.3.Github Repos.html" />
-        <item itemvalue="JavaScript Debug.query.php" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +258,8 @@
       <workItem from="1544432547716" duration="32941000" />
       <workItem from="1544603524698" duration="14552000" />
       <workItem from="1544728424045" duration="1569000" />
-      <workItem from="1544764913227" duration="4561000" />
+      <workItem from="1544764913227" duration="7237000" />
+      <workItem from="1544872937531" duration="1327000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -502,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544765890877</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Update">
+      <created>1544782950898</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1544782950898</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -538,7 +507,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179345000" />
+    <option name="totallyTimeSpent" value="183348000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -550,16 +519,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49720046" visible="true" weight="0.19193155" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720046" visible="true" weight="0.18911175" />
       <window_info id="Structure" order="1" sideWeight="0.5027996" side_tool="true" weight="0.20721272" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32922733" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.22732362" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.22611037" />
       <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49856734" weight="0.32362822" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -608,20 +577,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/06. Highlight Active.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="8" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/07.Dynamic Validation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Subtraction.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -725,13 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="34" column="29" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/DOM Search.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -928,17 +876,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../messenger.json">
+    <entry file="file://$PROJECT_DIR$/../../messenger.json" />
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Applications/Messenger.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="420">
+          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS Core/JS Applications/Messenger.html">
+    <entry file="file://$PROJECT_DIR$/Exams/Chat Logger.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        <state relative-caret-position="595">
+          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/jQuery/DOM Search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="43" column="6" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Exams/Post Office.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
