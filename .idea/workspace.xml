@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1867cf1-8fb0-43c4-9258-dc9b4d690a1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Exams/Post Office.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Final Exam December 2018/01. Concert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Final Exam December 2018/02. Song Encryption.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,12 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Exams/Post Office.php">
+        <entry file="file://$PROJECT_DIR$/Final Exam December 2018/02. Song Encryption.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="42" column="14" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -74,9 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/04.Stopwatch.html" />
-        <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/05.Mouse Gradient.html" />
-        <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/05.Mouse Gradient/index.html" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/05.Mouse Gradient/gradient.css" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/05.Mouse Gradient/gradient.js" />
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/06. Highlight Active.html" />
@@ -125,6 +123,9 @@
         <option value="$PROJECT_DIR$/JS Core/JS Advanced/jQuery/DOM Search.html" />
         <option value="$PROJECT_DIR$/Exams/Chat Logger.php" />
         <option value="$PROJECT_DIR$/Exams/Post Office.php" />
+        <option value="$PROJECT_DIR$/Final Exam December 2018/1. Concert.php" />
+        <option value="$PROJECT_DIR$/Final Exam December 2018/01. Concert.php" />
+        <option value="$PROJECT_DIR$/Final Exam December 2018/02. Song Encryption.php" />
       </list>
     </option>
   </component>
@@ -144,6 +145,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,31 +156,24 @@
             <path>
               <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="Exams" type="462c0819:PsiDirectoryNode" />
+              <item name="Final Exam December 2018" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
               <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Technology-Fundamentals-September-2018" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Technology-Fundamentals-September-2018" type="462c0819:PsiDirectoryNode" />
-              <item name="JS Core" type="462c0819:PsiDirectoryNode" />
-              <item name="JS Applications" type="462c0819:PsiDirectoryNode" />
+              <item name="Regular Expressions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CRUD/Symfony/Eshop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -206,17 +201,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="PHP Script.Post Office.php">
-    <configuration name="3.Github Repos.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Applications/3.Github Repos.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="PHP Script.02. Song Encryption.php">
     <configuration name="Bus Schedule.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Applications/Bus Schedule.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Bus Stop.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Applications/Bus Stop.html" useBuiltInWebServerPort="true">
+    <configuration name="Messenger.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Applications/Messenger.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="Messenger.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Technology-Fundamentals-September-2018/JS Core/JS Applications/Messenger.html" useBuiltInWebServerPort="true">
+    <configuration name="01. Concert.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Final Exam December 2018/01. Concert.php">
+      <method v="2" />
+    </configuration>
+    <configuration name="02. Song Encryption.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Final Exam December 2018/02. Song Encryption.php">
       <method v="2" />
     </configuration>
     <configuration name="Post Office.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/Exams/Post Office.php">
@@ -224,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="PHP Script.02. Song Encryption.php" />
+        <item itemvalue="PHP Script.01. Concert.php" />
         <item itemvalue="PHP Script.Post Office.php" />
         <item itemvalue="JavaScript Debug.Messenger.html" />
         <item itemvalue="JavaScript Debug.Bus Schedule.html" />
-        <item itemvalue="JavaScript Debug.Bus Stop.html" />
-        <item itemvalue="JavaScript Debug.3.Github Repos.html" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +254,8 @@
       <workItem from="1544603524698" duration="14552000" />
       <workItem from="1544728424045" duration="1569000" />
       <workItem from="1544764913227" duration="7237000" />
-      <workItem from="1544872937531" duration="1327000" />
+      <workItem from="1544872937531" duration="2146000" />
+      <workItem from="1544939405326" duration="9247000" />
     </task>
     <task id="LOCAL-00001" summary="Update">
       <created>1543221972127</created>
@@ -471,7 +467,14 @@
       <option name="project" value="LOCAL" />
       <updated>1544782950898</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Update">
+      <created>1544874385153</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1544874385153</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -507,7 +510,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183348000" />
+    <option name="totallyTimeSpent" value="193414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -519,17 +522,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720046" visible="true" weight="0.18911175" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49720046" visible="true" weight="0.20272315" />
       <window_info id="Structure" order="1" sideWeight="0.5027996" side_tool="true" weight="0.20721272" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.32922733" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.22611037" />
-      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49856734" weight="0.32362822" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.2749591" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49856734" weight="0.32242227" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" weight="0.32922733" />
@@ -538,7 +540,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4987775" weight="0.32922733" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4987775" weight="0.3975364" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50143266" side_tool="true" weight="0.4729951" />
-      <window_info anchor="bottom" id="PHP-CGI Server" order="13" />
+      <window_info anchor="bottom" id="PHP-CGI Server" order="13" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -577,34 +579,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Subtraction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="71" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/02.Add and Delete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Fill Dropdown.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="24" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Accordion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="46" selection-start-line="46" selection-end-line="56" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS Core/JS Advanced/DOM Manipulation/Sections.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -898,10 +872,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Downloads/PHP-Solutions/PHP-Solutions/SoftUniExamResults.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Exams/Post Office.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final Exam December 2018/01. Concert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="142" column="19" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regular Expressions/02. Furniture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Final Exam December 2018/02. Song Encryption.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="42" column="14" selection-end-line="57" />
         </state>
       </provider>
     </entry>
